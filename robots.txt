@@ -1,1 +1,1 @@
-Sitemap: file:///Users/akyle/Documents/hl/cmuhl.org/_site/sitemap.xml
+Sitemap: http://cmuhl.org/sitemap.xml
