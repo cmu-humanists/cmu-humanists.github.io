@@ -10,8 +10,8 @@
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
         appendString += '<li><article><a href="' + item.url + '">' + item.title;
-        appendString += '<span class="excerpt">' + item.content.substring(0, 150);
-        appendString += '&#8230;</span></a></article></li>';
+        appendString += '<div class="excerpt">' + item.content.substring(0, 150);
+        appendString += '&#8230;</div></a></article></li>';
       }
 
       searchResults.innerHTML = appendString;

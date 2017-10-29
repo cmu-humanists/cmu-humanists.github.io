@@ -464,6 +464,7 @@ figure {
    ========================================================================== */
 .btn {
   display: inline-block;
+  text-align: center;
   margin-bottom: 20px;
   padding: 8px 20px;
   font-size: 14px;
@@ -471,7 +472,7 @@ figure {
   line-height: 1.7142857143;
   margin-bottom: 24px;
   margin-bottom: 1.5rem;
-  background-color: #000;
+  background-color: #4d4d4d;
   color: #fff;
   border: 2px solid #000 !important;
   border-radius: 3px; }
@@ -1184,25 +1185,15 @@ select:focus {
     .social-icons a:hover {
       color: #000; }
 
-/* ==========================================================================
-   Archive pages
-   ========================================================================== */
-/*
-   Post archive
-   ========================================================================== */
 .post-list {
   margin: 0;
   padding: 0;
-  list-style-type: none;
-  /* post excerpt */ }
+  list-style-type: none; }
   .post-list li {
     padding: 8px 0;
+    margin-bottom: 0px;
     border-bottom: 1px solid #cccccc;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    font-size: 18px;
-    font-size: 1.125rem;
-    line-height: 1.3333333333;
-    margin-bottom: 0; }
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
     .post-list li::after {
       clear: both;
       content: "";
@@ -1210,35 +1201,35 @@ select:focus {
     .post-list li > a {
       border-bottom-width: 0;
       /* remove underlines from items in post indexes */ }
-  .post-list .entry-info {
-    float: right;
+  @media only screen and (min-width: 37.5em) {
+    .post-list .entry-header {
+      display: flex;
+      justify-content: space-between; } }
+  .post-list .entry-header .title {
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 1.3333333333;
+    margin-bottom: 0; }
+  .post-list .entry-header .entry-info {
     font-size: 14px;
     font-size: 0.875rem;
     line-height: 1.7142857143;
     margin-bottom: 0;
     text-transform: uppercase;
-    display: inline; }
-    .post-list .entry-info .category-tag {
-      font-weight: bold; }
+    flex-shrink: 0; }
+    .post-list .entry-header .entry-info .entry-date {
+      display: inline; }
+    .post-list .entry-header .entry-info .category-tag:before {
+      content: "\2022"; }
+    .post-list .entry-header .entry-info .category-tag {
+      font-weight: bold;
+      display: inline; }
   .post-list .excerpt {
-    display: block;
     font-size: 14px;
     font-size: 0.875rem;
     line-height: 1.2857142857;
-    margin-bottom: 0;
-    /*
-    @media ${$medium} {
-      width: 70%;
-    }
+    margin-bottom: 0; }
 
-    @media only screen and (min-width: 62em) {
-      width: 60%;
-    }
-    */ }
-
-/*
-   Tag archive
-   ========================================================================== */
 .tag-box {
   list-style: none;
   margin: 0;
@@ -1269,6 +1260,47 @@ select:focus {
       line-height: 2.4;
       margin-bottom: 24px;
       margin-bottom: 1.5rem; }
+
+.list-people-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+#person {
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.7142857143;
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  width: 100%; }
+  @media only screen and (min-width: 48em) {
+    #person {
+      width: 50%; } }
+  #person a {
+    color: #222; }
+  #person .bio-photo {
+    margin: auto;
+    margin-bottom: 10px;
+    display: block;
+    width: 19.2em;
+    height: 19.2em;
+    border-radius: 14.4em; }
+  #person .name {
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold; }
+  #person .position {
+    text-transform: uppercase;
+    display: inline-block; }
+  #person .bio {
+    font-size: 12px;
+    font-size: 0.75rem;
+    line-height: 2;
+    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+    display: block; }
 
 /* Page specific */
 .entry-title {
@@ -1499,7 +1531,7 @@ select:focus {
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 30px;
-  height: 0;
+  height: 600px;
   overflow: hidden; }
 
 .responsive-iframe-container iframe,
@@ -1507,6 +1539,4 @@ select:focus {
 .vresponsive-iframe-container embed {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
+  left: 0; }
