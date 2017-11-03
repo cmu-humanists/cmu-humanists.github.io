@@ -1299,6 +1299,7 @@ select:focus {
     line-height: 2;
     margin-bottom: 24px;
     margin-bottom: 1.5rem;
+    padding: 1em;
     text-align: justify;
     display: block; }
 
