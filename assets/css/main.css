@@ -1158,6 +1158,9 @@ select:focus {
    Site footer
    ========================================================================== */
 .footer-wrapper {
+  display: block;
+  bottom: 0;
+  max-width: 59.5em;
   margin: 2em auto;
   text-align: center;
   font-family: "volkhov", serif;
@@ -1167,11 +1170,9 @@ select:focus {
   margin-bottom: 24px;
   margin-bottom: 1.5rem;
   font-style: italic;
-  color: #555555; }
-  .footer-wrapper::after {
-    clear: both;
-    content: "";
-    display: table; }
+  color: #555555;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 1em; }
   .footer-wrapper a {
     color: #555555; }
 
@@ -1260,6 +1261,31 @@ select:focus {
       line-height: 2.4;
       margin-bottom: 24px;
       margin-bottom: 1.5rem; }
+
+.semesters-wrapper {
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+
+.semesters-wrapper input[type='radio'] {
+  display: none; }
+
+.semesters-wrapper label {
+  margin: 0 0.4em 0.5em;
+  order: -1; }
+
+.semesters-wrapper label:hover {
+  cursor: pointer; }
+
+.semesters-wrapper ul.post-list {
+  overflow: hidden;
+  padding: 0 10px;
+  display: none;
+  margin-top: 1em; }
+
+.semesters-wrapper label + input[type='radio']:checked + ul.post-list {
+  display: block; }
 
 .list-people-wrapper {
   display: flex;
@@ -1352,15 +1378,14 @@ select:focus {
       margin-bottom: 1.5rem; } }
 
 #page {
-  border-bottom: 1px solid #cccccc;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   max-width: 46.7em;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
   padding-right: 20px;
-  padding-left: 20px; }
+  padding-left: 20px;
+  padding-bottom: 1em; }
   #page::after {
     clear: both;
     content: "";
@@ -1416,19 +1441,21 @@ select:focus {
       margin-bottom: 1.5rem; } }
 
 #post {
-  border-bottom: 1px solid #cccccc;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   max-width: 59.5em;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
   padding-right: 20px;
   padding-left: 20px; }
   #post::after {
     clear: both;
     content: "";
     display: table; }
+  #post .banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
   #post .entry-meta {
     margin-right: 12px;
     text-transform: uppercase;
@@ -1507,6 +1534,22 @@ select:focus {
       #post .entry-content p > a:hover,
       #post .entry-content li > a:hover {
         border-bottom-style: solid; }
+  #post .entry-content-full {
+    animation-duration: 1s;
+    animation-delay: 1.6s;
+    /* nice link underlines */ }
+    #post .entry-content-full p:first-child {
+      margin-top: 0; }
+    #post .entry-content-full p > a,
+    #post .entry-content-full li > a {
+      border-bottom: 1px dotted #a2a2a2; }
+      #post .entry-content-full p > a:hover,
+      #post .entry-content-full li > a:hover {
+        border-bottom-style: solid; }
+  #post .poster {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
   #post #disqus_thread {
     margin-top: 2em; }
 
@@ -1517,13 +1560,14 @@ select:focus {
 /* ==========================================================================
    Search
    ========================================================================== */
-.simple-search label {
-  display: none; }
+.search-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center; }
 
 /* input field */
 #search-box {
-  width: auto;
-  margin-right: 10px;
+  max-width: 80%;
   padding: 8px 10px;
   font-size: 14px;
   font-size: 0.875rem;
@@ -1532,9 +1576,6 @@ select:focus {
   margin-bottom: 1.5rem;
   border-width: 2px;
   border-radius: 3px; }
-  @media only screen and (min-width: 48em) {
-    #search-box {
-      width: 80%; } }
 
 /* Responsive iFrame */
 /* https://answers.squarespace.com/questions/54774/how-to-embed-a-google-calendar-in-a-responsive-way.html */

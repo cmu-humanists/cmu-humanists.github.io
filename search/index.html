@@ -117,11 +117,9 @@
       </header>
       <div class="entry-content">
         <!-- Search text box -->
-<form method="get" action="http://cmuhl.org/search/" class="simple-search">
-  <label for="search-box">Search Humanist League for:</label>
-  <input type="search" name="query" id="search-box" placeholder="What are you looking for?" autofocus="" />
-  <input type="submit" value="Search" class="btn" />
-</form>
+<div class="search-wrapper">
+<input type="search" name="query" id="search-box" onkeyup="search()" placeholder="What are you looking for?" autofocus="" />
+</div>
 
 <!-- Search results placeholders -->
 <h6 id="num-search-results"> </h6>
@@ -184,12 +182,12 @@
       }
       ,
     
-      "speakers-2018-03-22-autumn": {
-        "title": "I Am Beautiful: Women, Beauty, and the Therapeutic Narrative",
+      "speakers-2018-03-22-autumn-whitefield-madrano": {
+        "title": "Autumn Whitefield-Madrano – I Am Beautiful",
         "author": "",
         "category": "speakers",
-        "content": "A long overdue awareness of the punishing nature of our beauty standards has finally arrived; but its accompanying narrative that women don’t like their appearance pushes other experiences beauty out of the conversation. Join us this Thursday March 22 at 5 pm in Scaife 125 for an exploration of the many facets of beauty through science, philosophy, and the lived experience of women.Autumn Whitefield-Madrano is the author of Face Value: The Hidden Ways Beauty Shapes Women’s Lives, an exploration into the sociology, philosophy, and lived experience of women and beauty in America.Check out the Facebook event!",
-        "url": "/speakers/2018/03/22/autumn/"
+        "content": "Women, Beauty, and the Therapeutic NarrativeA long overdue awareness of the punishing nature of our beauty standards has finally arrived; but its accompanying narrative that women don’t like their appearance pushes other experiences beauty out of the conversation. Join us this Thursday March 22 at 5 pm in Scaife 125 for an exploration of the many facets of beauty through science, philosophy, and the lived experience of women.Autumn Whitefield-Madrano is the author of Face Value: The Hidden Ways Beauty Shapes Women’s Lives, an exploration into the sociology, philosophy, and lived experience of women and beauty in America.Check out the Facebook event!",
+        "url": "/speakers/2018/03/22/autumn-whitefield-madrano/"
       }
       ,
     
@@ -238,12 +236,12 @@
       }
       ,
     
-      "speakers-2018-02-06-bart": {
-        "title": "Human Love and Meaning Making",
+      "speakers-2018-02-06-bart-campolo": {
+        "title": "Bart Campolo – Human Love and Meaning Making",
         "author": "",
         "category": "speakers",
         "content": "The son of an Evangelical pastor, Bart Campolo spent thirty years in Christian Ministry before leaving religion. Now Bart continues to work as a community builder and pastoral care provider as the Humanist Chaplain at the University of Cincinnati. Join us on February 6th at 4:45 pm in Margaret Morrison Room 103 to hear Bart talk about his journey, his work, and how he helps himself and others find meaning in their lives.Check out the Facebook event!",
-        "url": "/speakers/2018/02/06/bart/"
+        "url": "/speakers/2018/02/06/bart-campolo/"
       }
       ,
     
@@ -373,12 +371,12 @@
       }
       ,
     
-      "speakers-2017-10-04-lee": {
-        "title": "Lee McIntyre: Post-Truth",
+      "speakers-2017-10-04-lee-mcintyre": {
+        "title": "Lee McIntyre – Post-Truth",
         "author": "",
         "category": "speakers",
         "content": "On this Monday February 20 at 4:30pm in Margaret Morrison 103, the Humanist League will be hosting Lee McIntyre to speak about the role of truth in our society:Many say that we are now entering the ‘post-truth’ era. From fake news to outright lying by public figures, don’t facts count anymore? This talk will explore the surprisingly deep roots of our current dilemma and offer a few reasons to hope that those who care about truth can still fight back.",
-        "url": "/speakers/2017/10/04/lee/"
+        "url": "/speakers/2017/10/04/lee-mcintyre/"
       }
       ,
     
@@ -508,12 +506,12 @@
       }
       ,
     
-      "speakers-2017-03-03-ari": {
+      "speakers-2017-03-03-ari-berman": {
         "title": "Ari Berman – Give Us The Ballot!",
         "author": "",
         "category": "speakers",
         "content": "Ari Berman charts both the transformation of American democracy under the Voting Rights Act and the counterrevolution that has sought to limit voting rights from 1965 to the present day. The act enfranchised millions of Americans and is widely regarded as the crowning achievement of the civil rights movement. And yet ﬁfty years later we are still ﬁghting heated battles over race, representation, and political power, with lawmakers devising new strategies to keep minorities out of the voting booth and the Supreme Court declaring a key part of the Voting Rights Act unconstitutional.",
-        "url": "/speakers/2017/03/03/ari/"
+        "url": "/speakers/2017/03/03/ari-berman/"
       }
       ,
     
@@ -598,6 +596,15 @@
       }
       ,
     
+      "speakers-2016-11-02-sagan-fest-pinker": {
+        "title": "Carl Sagan Fest, featuring Steven Pinker",
+        "author": "",
+        "category": "speakers",
+        "content": "The Past, Present, and Future of Violence  “If you wish to make an apple pie from scratch, you must first invent the universe.” - Carl SaganJoin us for the Humanist League’s annual Carl Sagan Fest, a celebration of learning and reflection complete with apple pie! This year, our speaker Steven Pinker will receive the inaugural Sagan Award from CMU’s Humanism Initiative. The event will be followed by a reception in CUC Connan.The past: Contrary to popular opinion, violence at all scales have been in decline over the course of history.The present: Human nature comprises faculties that encourage violence, such as dominance and revenge, but also faculties that inhibit it, such as self-control, empathy, and reason. The level of violence in a given society depends on how its norms and institutions affect the balance between them.The future: Professor Pinker speculates on which of the historical changes that reduced violence in the past will continue into the future.More details can be found on the Facebook Event page.",
+        "url": "/speakers/2016/11/02/sagan-fest-pinker/"
+      }
+      ,
+    
       "discussions-2016-10-27-free-speech": {
         "title": "Is free speech overrated?",
         "author": "",
@@ -631,6 +638,15 @@
         "category": "discussions",
         "content": "When you think of entities that provide social services, businesses don’t often come to mind. Usually you may think of non-profits and government organizations who have explicit missions to provide a social service. However does any and every business, simply by virtue of existing within an economy, providing a product, and being an employer, provide a social service? Even regardless of the product, mission, or working conditions of the business? It seems that the more business there are that exist and provide work opportunities and products, the better for everyone. However is this always true? For example, you often hear about the poor working conditions and low wages for workers in the textile industry in Bangladesh, or electronics manufacturers in China. These sweatshop factories, and the companies that own them, seem deplorable, however may there be some merit in their existence? Many argue that they actually provide the first step for bettering work opportunities and living conditions in these societies. So those business are in fact providing a social service to the area, and so perhaps every businesses does in fact provide a social service for those that are touched either by their employment or products.Does every business provide a social service or do there exist businesses that society would truly be better off without?",
         "url": "/discussions/2016/10/06/business-as-a-social-service/"
+      }
+      ,
+    
+      "speakers-2016-10-05-hiba-krisht": {
+        "title": "Hiba Krisht – Veils, Virginity, and (In)visibility",
+        "author": "",
+        "category": "speakers",
+        "content": "On Being a Woman in Hezbollah CultureOn Wednesday, October 5th from 4:30-5:30pm in Margaret Morrison A14, the Humanist League will be hosting Hiba Krisht, who will be speaking about the realities of a woman growing up in a fundamentalist Muslim culture. Since Muslim communities are diverse and Islam is not a monolith, it is useful to look at specific contexts. This talk will focus on Shiite women in Hezbollah Lebanon, discussing how gender roles, hijab, religious revivalism, militancy, sectarianism, and geopolitics are embodied therein.",
+        "url": "/speakers/2016/10/05/hiba-krisht/"
       }
       ,
     
@@ -676,6 +692,816 @@
         "category": "discussions",
         "content": "Brainstorm Topics for the SemesterFor the first 45 minutes of tomorrow’s meeting we’ll be having an informal discussion on what topics we would like to discuss over the course of the semester. Perhaps you heard something over the summer that piqued your interest and would make a good discussion topic. Or maybe you want to revisit a previous topic from a new viewpoint. Or maybe you just met us at the ice cream social over the weekend and want to hear more about us.There will be cookies!Book Club: American GodsIn the second part of the meeting we will be discussing the summer book club reading of American Gods by Neil Gaiman. Come discuss how Gaiman’s novel of how ancient God’s have gotten by in modern America reflects the state of beliefs in our society and more!",
         "url": "/discussions/2016/09/01/brainstorm-and-book-club/"
+      }
+      ,
+    
+      "discussions-2016-04-25-final-meeting": {
+        "title": "Final Meeting! Feedback + Snacks",
+        "author": "",
+        "category": "discussions",
+        "content": "It’s the end of the year, and we want your opinions! What was your favorite HL event this year? What can we do better? What do you want to see more of? Come hang out and let us know what you want HL to be!Also enjoy some snacks and shorter conversation topics.",
+        "url": "/discussions/2016/04/25/final-meeting/"
+      }
+      ,
+    
+      "discussions-2016-04-18-immigration-ethics": {
+        "title": "Immigration Ethics + Policy",
+        "author": "",
+        "category": "discussions",
+        "content": "Do countries have an obligation to accept immigrants or refugees?The EU is facing an enormous problem in dealing with the recent surge of immigrants from middle eastern countries. One recent proposal by the EU will allow Greece to begin sending back refugees that arrive from Turkey. However, there are enormous complexities involved in attempting to solve such a massive migration crisis, which makes policy decisions incredibly difficult. What are the arguments for and against allowing immigrants? What policies would have a positive practical effect given the current situation? And, as above, do countries ever have a moral obligation to accept immigrants or refugees?How do we remain humane in our treatment of those looking for asylum and protection from the circumstances from which they are fleeing, while at the same time respecting the rights and livelihoods of existing citizens?",
+        "url": "/discussions/2016/04/18/immigration-ethics/"
+      }
+      ,
+    
+      "discussions-2016-04-11-incarceration-ethics": {
+        "title": "Incarceration Ethics",
+        "author": "",
+        "category": "discussions",
+        "content": "Most Americans today are familiar with the prison and criminal justice system, and the United States has the greatest incarceration rate in the world, but what is the philosophy behind our prison system? Is it supposed to be punitive or reformative? Have we developed a prison-industrial complex? And what rights do we and ought we deny someone who has committed a crime?",
+        "url": "/discussions/2016/04/11/incarceration-ethics/"
+      }
+      ,
+    
+      "discussions-2016-04-04-despair": {
+        "title": "Despair",
+        "author": "",
+        "category": "discussions",
+        "content": "What do we do about it?At the beginning of the semester, we hosted a film screening (“A Better Life”) about how atheists find joy and meaning in life, but one of the primary criticisms of atheism is that it doesn’t provide hope to people in the midst of despair. How do secular people find hope? Or, as came up at the Interfaith Panel on Thursday, without hope of an afterlife, how can atheists find solace in the face of injustice?",
+        "url": "/discussions/2016/04/04/despair/"
+      }
+      ,
+    
+      "speakers-2016-03-31-interfaith-panel": {
+        "title": "Interfaith Dialogue – Good and Evil",
+        "author": "",
+        "category": "speakers",
+        "content": "A Dialogue between a Christian, a Humanist, and a HinduThis Thursday, March 31 from 4:30-6:30 in CUC Rangos Ballroom, the Humanist League, Student Life Office, Inter-Fellowship Association, and CMU OM are putting on an Interfaith Forum.On Good and Evil, and Why It Matters, a Christian (Bruce Backensto), a Secular Humanist (Andy Norman), and a Hindu (Kunal Ghosh) will share their perspectives. Come and explore some of life’s important questions. Panel discussion followed by Q&amp;A and small-group conversations. There will be light refreshments.Find out more more on our Facebook event!",
+        "url": "/speakers/2016/03/31/interfaith-panel/"
+      }
+      ,
+    
+      "discussions-2016-03-28-art": {
+        "title": "What is Art?",
+        "author": "",
+        "category": "discussions",
+        "content": "Is it the creation of beautiful things? Is it to evoke emotional responses? Is it the artist’s self expression? Is the art piece valuable in itself, or does the creator’s fame, effort, or intention play a central role? Does it even matter what Art is?Here are some things that may challenge your notion of Art:  Piss Christ  Pierre Brassau, the chimpanzee painter  John Cage’s 4’33” and totally cacophonic Music of Changes  Computer generated music (Jazz improv)  White Paintings  Artist’s Shit  Unfortunate “restoration” of Ecce Homo  Copies of art that look as good as the original  Wean Hall",
+        "url": "/discussions/2016/03/28/art/"
+      }
+      ,
+    
+      "discussions-2016-03-21-damon-young": {
+        "title": "Special Guest: Damon Young!",
+        "author": "",
+        "category": "discussions",
+        "content": "Pittsburgh Post-Gazette Writer and Very Smart Brothas BloggerThis meeting, we are having Pittsburgh’s own Damon Young join us for discussion! He is a writer and activist, and we’ve invited Damon to educate and discuss with us the complexity of race relations in America today. The discussion will be moderated as usual, but not guided, so come with questions! For some background information and examples of his writing, I’ve copied some links below!  Five Things People Need to Stop Saying When Police Dogs are Killed  Wilkinsburg: The Side of America’s “Most Livable City” Pittsburgh Doesn’t Want You to See  10 Ways to Avoid Getting Profiled by the Police If Driving While Black  “Anti-Police Brutality” Does Not Mean “Anti-Police”",
+        "url": "/discussions/2016/03/21/damon-young/"
+      }
+      ,
+    
+      "discussions-2016-03-14-privacy-surveillance": {
+        "title": "Privacy and Surveillance",
+        "author": "",
+        "category": "discussions",
+        "content": "Where is the line?With the ever-growing power of technology, the line between public and private is getting blurry. How far is too far when it come to privacy and surveillance? How many of you have heard “If you’ve done nothing wrong, you have nothing to hide”? Join us this Monday to discuss where to draw the line conceptually, and how to put that line into practice!",
+        "url": "/discussions/2016/03/14/privacy-surveillance/"
+      }
+      ,
+    
+      "speakers-2016-02-29-jennifer-michael-hecht": {
+        "title": "Jennifer Michael Hecht – Poetic Humanism",
+        "author": "",
+        "category": "speakers",
+        "content": "Jennifer Michael Hecht is a poet, historian, and commentator. Her newest book is Stay: A History of Suicide and the Arguments Against It. She also authored the bestseller Doubt: A History, a history of religious and philosophical doubt all over the world, and The Happiness Myth, which brings a historical eye to modern wisdom about how to lead a good life.She will tell us how poetry and the humanities can teach us as much about the human experience as science can, how many great poets were skeptics and humanists, and how the secular movement tends to over-rely on science. The event will also feature a poetry reading!More details on Facebook",
+        "url": "/speakers/2016/02/29/jennifer-michael-hecht/"
+      }
+      ,
+    
+      "discussions-2016-02-22-indoctrination-ethics": {
+        "title": "Ethics of Indoctrination",
+        "author": "",
+        "category": "discussions",
+        "content": "It’s okay as long as you’re teaching the right ideas…Every parent wants to prepare their children for the world, and that includes worldview and moral education. But how far is too far when it comes to indoctrination? Religious groups push for their views to be taught in schools, but secular groups similarly lobby for critical thinking in education. Is one inherently worse than the other? Does “protecting children from indoctrination” just mean indoctrinating them into our own beliefs?",
+        "url": "/discussions/2016/02/22/indoctrination-ethics/"
+      }
+      ,
+    
+      "discussions-2016-02-15-fundamentalism-part-2": {
+        "title": "Fundamentalism Part 2: Practical Concerns",
+        "author": "",
+        "category": "discussions",
+        "content": "Last week we looked at the roots and causes of fundamentalism and how it can lead to violence. This week we will discuss how to culturally combat fundamentalism. How we approach the issue of fundamentalism and who we choose to empower or blame has a profound impact on how this issue is viewed across the country and around the world. Fundamentalist ideologies have a narrative that is appealing to some people, and any attempt to combat that narrative should aim to be even more appealing.How can we combat fundamentalism culturally?Should we empower moderate beliefs in an ideology or religion, or do they legitimize extreme beliefs?To what extent are members of an ideology or religion culpable for the extremists in their groups?",
+        "url": "/discussions/2016/02/15/fundamentalism-part-2/"
+      }
+      ,
+    
+      "discussions-2016-02-08-violent-fundamentalism": {
+        "title": "Violent fundamentalism",
+        "author": "",
+        "category": "discussions",
+        "content": "“Fundamentalism is characterized by a markedly strict literalism as applied to certain specific scriptures, dogmas, or ideologies, and a strong sense of the importance of maintaining ingroup and outgroup distinctions.” The recent terrorist attacks in Paris and San Bernadino, along with the attacks on a Planned Parenthood clinic in Colorado, have renewed discussion about the role of religious fundamentalism in acts of violence. Some claim that fundamentalism always leads to violence or even that certain ideologies are more prone to violence than others. Another view is that violence is the result of various cultural and political factors which have little to do with religious doctrine.How and why does fundamentalism grip people’s beliefs, when the world is naturally diverse in opinions? Why do some fundamentalist ideologies become violent (KKK, ISIS, Khmer Rouge), and other do not (Jehovah’s Witness)? How can we combat fundamentalism? Here is a short relevant video.",
+        "url": "/discussions/2016/02/08/violent-fundamentalism/"
+      }
+      ,
+    
+      "discussions-2016-02-01-a-better-life": {
+        "title": "Do Atheists Live &quot;A Better Life&quot;?",
+        "author": "",
+        "category": "discussions",
+        "content": "At our film screening of “A Better Life” this past Tuesday, we saw some ways that atheists find joy and meaning in life. The people interviewed talked about relationships with others, finding our place in a larger story, and how non-religious people think about death and life. Many of them also claimed that religious ideas of afterlife can cheapen the value of this life. At our meeting this week, we will discuss these topics and more! How do non-religious people find meaning and purpose in life, and could it be better that way?You do not have to have seen the film to participate in this discussion!",
+        "url": "/discussions/2016/02/01/a-better-life/"
+      }
+      ,
+    
+      "speakers-2016-01-26-chris-johnson": {
+        "title": "Film Screening! – A Better Life with director Chris Johnson",
+        "author": "",
+        "category": "speakers",
+        "content": "This Tuesday (January 26), we are hosting a film screening of “A Better Life” with the director, Chris Johnson. The documentary film tackles the question of how non-religious people find meaning and purpose in a world without God. Please join us from 5:00 to 7:00 pm in DH 1212 for pizza, film, and Q&amp;A!Facebook event hereWatch the Movie Trailer here",
+        "url": "/speakers/2016/01/26/chris-johnson/"
+      }
+      ,
+    
+      "discussions-2016-01-25-humanism-in-pop-culture": {
+        "title": "This Week: Humanism in Pop Culture",
+        "author": "",
+        "category": "discussions",
+        "content": "Stories help people tell each other who we are and what we value. Recently, pop culture has seen a resurgence in epic and mythological storytelling, whether it be about super-powered heroes, alien invasions, or the ancient clashes between forces of good and evil. These stories explore archetypical themes- what Joseph Campbell called “the Hero’s Journey”- but can also be interpreted as nuanced portraits of humanity’s technological and socio-political aspirations. Some argue that pop culture is recycling the same old material in new, flashy packaging, while others claim that these stories are universal and that we are in a golden age of storytelling. We’ll explore Star Wars, Star Trek, Marvel, and more!What do stories in pop culture tell us about what we value as a society?Is pop culture stagnating or is it more creative than ever before?What are some Humanism-related cultural products, and what do they tell us about ourselves?",
+        "url": "/discussions/2016/01/25/humanism-in-pop-culture/"
+      }
+      ,
+    
+      "discussions-2016-01-19-book-club": {
+        "title": "Book Club: Catch 22",
+        "author": "",
+        "category": "discussions",
+        "content": "The poll has spoken and discussion meetings for the semester will be held on Mondays at 4:30. Join us for the first meeting of the year today, at our new room Wean 5312. We will catch up and also chat informally about the book we read over break, Catch 22. Even if you haven’t read the book, join us as we discuss the general themes of war and insanity. We’ll also discuss upcoming plans for the semester.",
+        "url": "/discussions/2016/01/19/book-club/"
+      }
+      ,
+    
+      "discussions-2015-12-08-feedback-elections-book-club": {
+        "title": "Feedback Meeting + Elections!",
+        "author": "",
+        "category": "discussions",
+        "content": "Join us this Tuesday for the last meeting of the semester! Instead of a specific topic, we will spend the time collectively reflecting on what Humanist League has done this past semester. It will also be a good opportunity to hear feedback from you on how our organization has been doing. What have you enjoyed about Humanist League so far? What have you not particularly liked? What things can we improve on? What topics, events and other ideas do you have in mind for next semester? We’ll also share some plans we have in mind for next semester, and hold officer elections for two positions (Treasurer and Events coordinator).",
+        "url": "/discussions/2015/12/08/feedback-elections-book-club/"
+      }
+      ,
+    
+      "discussions-2015-12-01-meaning-of-work": {
+        "title": "The Value/Meaning of Work",
+        "author": "",
+        "category": "discussions",
+        "content": "The society in which we all live seems to revolve around this idea that individuals must work. But why? Wouldn’t life be better without all the stress of having to worry about finding a job and and making a living doing that job almost every day of your life? On the other hand, it seems like having a job and working confers some sort of satisfaction that one’s life matters and makes a difference. But should we really derive meaning from our jobs?When we examine the modern attitude towards work, we see that many of our values surrounding work come from the industrial revolution and the rise of a ‘working class’. But do these values, created for a population that mostly worked on factory assembly lines, serve us in a technologicaly based economy? For example, is money really the best incentive to get people to be more productive?Finally, as we look towards the future, will work become obsolete as the world moves increasingly towards automation in many sectors of the economy? If so, what will people do with their time, and where will people find meaning in their lives? Check out this TED Radio hour on the meaning of work for some interesting ideas on the psychology and history of work. Also watch this video from CCP Grey on why automation is going to drastically alter our economy: Humans Need Not Apply.",
+        "url": "/discussions/2015/12/01/meaning-of-work/"
+      }
+      ,
+    
+      "discussions-2015-11-23-fishbowl": {
+        "title": "Fishbowl this week!",
+        "author": "",
+        "category": "discussions",
+        "content": "Since many people will be out of town, we’re just having a fishbowl meeting for whoever’s still around. This means short discussions drawn out of the bowl on smaller (but still thought-provoking!) topics. Since it’s more relaxed, people can also suggest any topic they like or just hang out :)",
+        "url": "/discussions/2015/11/23/fishbowl/"
+      }
+      ,
+    
+      "discussions-2015-11-17-science-vs-pseudoscience": {
+        "title": "Science vs. Pseudoscience",
+        "author": "",
+        "category": "discussions",
+        "content": "At Friday’s Carl Sagan Fest, philosopher Massimo Pigliucci addressed the age old question of what distinguishes science from pseudoscience. Instinctively, most of us tend to recognize many practices such as astrology, numerology and intelligent design as pseudoscience, but other practices are more difficult to diagnose.In their day, phrenology, Marxist theories of history and Freudian psychoanalysis were considered rigorous science, but not anymore. Today, the controversy continues over fields such as string theory, evolutionary psychology and others. Philosophers have long struggled over this “demarcation problem” and offered many answers. This question has important practical consequences as well since we need to build public policy around the funding and teaching of science.What criteria, if any, distinguish science from pseudoscience?When should we abandon particular scientific theories, or entire scientific disciplines as pseudoscience?What are the social and political consequences of where we draw the line between science and pseudoscience?",
+        "url": "/discussions/2015/11/17/science-vs-pseudoscience/"
+      }
+      ,
+    
+      "speakers-2015-11-13-sagan-fest-pigliucci": {
+        "title": "Carl Sagan Fest – Science vs. Pseudoscience",
+        "author": "",
+        "category": "speakers",
+        "content": "Come enjoy some apple pie and celebrate science education at Sagan Fest! The event is held annually to celebrate Carl Sagan’s contributions to science outreach and education. This year’s speaker, Dr. Massimo Pigliucci, is a biologist and philosopher of science, and he will be speaking about “Science vs. Pseudoscience: How to Tell the Difference, and Why it Matters to You”.Here’s the Facebook Event!",
+        "url": "/speakers/2015/11/13/sagan-fest-pigliucci/"
+      }
+      ,
+    
+      "discussions-2015-11-10-western-centrism": {
+        "title": "Western Centrism",
+        "author": "",
+        "category": "discussions",
+        "content": "Great social advancement has occurred in the West since the Renaissance, and spread to the East and global South in more recent times. Modern forms of democracy and human rights can often be traced to European traditions. Non-Western societies have been adopting many of the Western values with the hopes of reaping their social benefits. It is all too easy to claim that Western values and culture are thus inherently superior to other ones, and the rest of the world would be better off putting their “backwards” traditions behind for a new, “enlightened” age.Is the West’s success due to an inherently superior culture? Are there objectively better values? How does one tell between valid diversity in cultural practices and something truly morally wrong?",
+        "url": "/discussions/2015/11/10/western-centrism/"
+      }
+      ,
+    
+      "discussions-2015-11-03-ethics-in-science": {
+        "title": "Dark Science: Ethics in Science",
+        "author": "",
+        "category": "discussions",
+        "content": "Scientific advances in the 20th century brought humanity unprecedented benefits in how we live our lives. However, science and technology can also have a dark side in it’s effects. Nuclear proliferation and environmental degradation are among the greatest challenges we face. Ethical issues remain in emerging technologies such as artificial intelligence, cloning and automated warfare. Scientists have even used psychological science to help with the government torture program. Some argue that science has a bias toward discovering and inventing first, and thinking of the ethical consequences later.Has scientific and technological innovation been shielded from serious ethical inquiry, and why?Should scientists be held responsible for the negative consequences of past and future innovations?How can we foster ethical norms in scientific culture and institutions?",
+        "url": "/discussions/2015/11/03/ethics-in-science/"
+      }
+      ,
+    
+      "discussions-2015-10-27-mindfulness-and-meditation": {
+        "title": "Mindfulness and Meditation",
+        "author": "",
+        "category": "discussions",
+        "content": "A practical session + discussionSo what’s the deal with meditation anyway? A growing body of research, including here at CMU, suggests that meditation leads to a variety of health benefits such as managing psychological stress, depression and anxiety. However, it is rooted in ancient Eastern spiritual practices which often may involve supernatural hocus pocus. Should modern science embrace the health benefits of meditative practice? Or does meditation belong in the dustbin of pseudoscientific nonsense such as homeopathy, astrology or numerology?On Tuesday, join us for a quick and easy, guided introduction to basic meditative practice, followed by a discussion of the science behind its’ alleged benefits. Our guide will lead us through about a 20 minute session of quieting and focusing our minds. This session is thoroughly secular, and is designed to be a quick and easy introduction for beginners. Then, we will discuss our experiences and whether meditation is pseudoscience and religious, or a scientific and secular practice.This week, instead of the usual room, we will meet in the Mindfulness Room on the 1st floor of West Wing building (MAP HERE) at 4:30.Alternately if you don’t think you can find the room, meet Clara at the usual room (Wean 5304) by 4:20 and she will walk you guys over to the Mindfulness Room.Again that’s 4:30 @ the Mindfulness Room OR 4:20 at Wean 5304.Meanwhile, watch what happened to Anderson Cooper when he tried mindfulness meditation while reporting for 60 Minutes in this clip.",
+        "url": "/discussions/2015/10/27/mindfulness-and-meditation/"
+      }
+      ,
+    
+      "speakers-2015-10-21-alice-dreger": {
+        "title": "Alice Dreger – Galileo's Middle Finger",
+        "author": "",
+        "category": "speakers",
+        "content": "The Humanist League is proud to be sponsoring Alice Dreger, activist and author of Galileo’s Middle Finger: Heretics, Activists, and the Search for Justice in Science to speak at CMU on October 21st at 5:30 pm on “Why the Pursuit of Evidence is the Most Important Moral Pursuit of Our Time”!Many people consider the worlds of science and of morality to be totally separate. How can a purely observational method be applied to “shoulds” and “oughts”? Come find out! Alice Dreger will argue that moral truths can be derived from evidence, and a moral outlook can be constructed without any appeal to the supernatural.",
+        "url": "/speakers/2015/10/21/alice-dreger/"
+      }
+      ,
+    
+      "discussions-2015-10-20-evidence-and-morality": {
+        "title": "Evidence Based Morality",
+        "author": "",
+        "category": "discussions",
+        "content": "More than just gut feelings and authoritiesHumanists strive to build moral beliefs that are well grounded in reality. We carefully examine the effects of our actions and decisions: avoiding what harms, and doing what benefits. We understand that gut feelings and authorities may not always be right, but we have real-world evidence to keep us in check.If our decisions are purely based on consequences, then where does that leave such Virtues as Honesty, Loyalty, and Filial Piety? Are actions good or bad in themselves, independent of their outcomes? Is there something more than just evidence that should guide our morality? This short article gives a concise example of such a moral conflict.",
+        "url": "/discussions/2015/10/20/evidence-and-morality/"
+      }
+      ,
+    
+      "discussions-2015-10-13-epistemology": {
+        "title": "Epistemology",
+        "author": "",
+        "category": "discussions",
+        "content": "How do we know what we know?This is perhaps a very broad topic, and I’m certain we could talk about it for hours, so for a more directed conversation, we’ll try to focus on these questions: what are the different ways of knowing? Are any more valid than others? Can culture, language, or another factor limit what we can know? And, of course, append to each question the additional question: why?",
+        "url": "/discussions/2015/10/13/epistemology/"
+      }
+      ,
+    
+      "discussions-2015-10-06-apathy": {
+        "title": "How do we combat apathy?",
+        "author": "",
+        "category": "discussions",
+        "content": "…and should we?As people, and particularly as students, we constantly have people telling us how we should spend our time and money and what we should care about. And organizers for any particular cause are always struggling to get people involved! Is it because people just don’t care? Are organizers wrong for fighting so hard for our time and attention? How can people be motivated to spend time and energy on service, political activism, or anything really?",
+        "url": "/discussions/2015/10/06/apathy/"
+      }
+      ,
+    
+      "discussions-2015-09-29-transhumanism": {
+        "title": "Transhumanism",
+        "author": "",
+        "category": "discussions",
+        "content": "Transcending and transforming what it means to be humanWe have the technology to change ourselves for the better, just take a look at modern medicine. But how much change is too much? People have inserted magnets near their nerves to be able to “sense” magnetic fields, and David Eagleman’s texture vest might take advantage of human pattern recognition to create “senses” of all sorts of information! What if we could add extra memory to our brains for quicker and more reliable recall? There are so many examples, and so many questions. Is there anything inherently wrong with modifying our own bodies and brains? What if parents could make that choice for their children? Would such improvements be unfair to those who opted out if augmentations became necessary to compete?",
+        "url": "/discussions/2015/09/29/transhumanism/"
+      }
+      ,
+    
+      "discussions-2015-09-22-death": {
+        "title": "Death",
+        "author": "",
+        "category": "discussions",
+        "content": "From a secular perspectiveDeath is a topic that secular people often have a hard time discussing, especially in times of grief, because it’s not very comforting to think that there’s nothing after death. But people who don’t believe in an afterlife continually find meaning in their lives despite or as a result of this non-belief, so how can that attitude be extended and expressed to mourners in a positive way? Is afterlife really the most comforting idea?",
+        "url": "/discussions/2015/09/22/death/"
+      }
+      ,
+    
+      "discussions-2015-09-15-why-be-good": {
+        "title": "Why be good to other people?",
+        "author": "",
+        "category": "discussions",
+        "content": "Product of evolution, or more?Apple Siri and Google Now speak politely and kindly to us, not because they (who’s they?) truly feel so, but because their goal of existence is to assist humans, and being kind is a means to that end. We humans like to think of our compassion and kindness to others as a goal in itself, rather than a means. (Many thinkers, like Thupten Jinpa, simply postulate compassion as innate.)Is that really so? Is compassion as innate and selfless as we think? How is our kindness to one another different from the kindness programmed into Siri?",
+        "url": "/discussions/2015/09/15/why-be-good/"
+      }
+      ,
+    
+      "discussions-2015-09-08-fishbowl": {
+        "title": "First Meeting Tomorrow!",
+        "author": "",
+        "category": "discussions",
+        "content": "A Casual Fish Bowl to Start the YearSince our first meeting (Sept. 8th) is happening before the activities fair, we’re gonna take it easy, hang out, catch up, and have a fish bowl meeting. For those of you unfamiliar with the format, a fish bowl is where we pick topics/questions from a (fish) bowl and discuss them for shorter times instead of spending the whole meeting on one topic. The conversation is a little more casual, but the topics are just as good!",
+        "url": "/discussions/2015/09/08/fishbowl/"
+      }
+      ,
+    
+      "discussions-2015-04-28-fishbowl": {
+        "title": "End-of-Year Fishbowl Meeting!",
+        "author": "",
+        "category": "discussions",
+        "content": "Just come and chat about random questions!It’s the last meeting of the school year. To conclude, we will have another Fishbowl Meeting, where we discuss (for as long/short as we want) short questions gathered from members. It’ll be fun!",
+        "url": "/discussions/2015/04/28/fishbowl/"
+      }
+      ,
+    
+      "speakers-2015-04-23-neil-donahue": {
+        "title": "Earth Day! Featuring Prof. Neil Donahue",
+        "author": "",
+        "category": "speakers",
+        "content": "Climate Change: Where we are and what we can do about itThis Thursday, the day after the International Earth Day, the Humanist League is hosting a speaker event, where Neil Donahue, Lord Professor of Chemistry and Director of Steinbrenner Institute, will speak on the current state of global climate change and our role in the planet’s fate. Ryan Brill from Sustainable Earth will present ways in which people may commit to curbing climate change. We will also display a piece of art made collaboratively by the CMU community on a sustainable future.",
+        "url": "/speakers/2015/04/23/neil-donahue/"
+      }
+      ,
+    
+      "discussions-2015-04-21-humanism": {
+        "title": "Humanism",
+        "author": "",
+        "category": "discussions",
+        "content": "A Discussion and Presentation by Akshat GuptaHow do we know if a particular perspective is Humanistic? Does Humanism necessitate atheism? Do Humanists need to care about social justice and why? Isn’t everyone already a Humanist?In this presentation, Akshat will attempt to answer some of these questions that constantly nag the Humanist community. We will then have a thorough discussion on our own understanding of what Humanism or a Humanist is.",
+        "url": "/discussions/2015/04/21/humanism/"
+      }
+      ,
+    
+      "discussions-2015-04-14-afterlife-hypotheticals": {
+        "title": "Afterlife Hypotheticals",
+        "author": "",
+        "category": "discussions",
+        "content": "Purgatory, Karma, digitised consciousness, or nothing…Abrahamic religions hold that the afterlife consists of a Heaven, a Hell, and a Purgatory. Eastern religions believe in a cycle of karmic reincarnation. Ancient mythologies maintained that there exists a god that rules an underworld, or that some humans became gods in death, or that some humans were gods trapped on Earth, to be released by death.",
+        "url": "/discussions/2015/04/14/afterlife-hypotheticals/"
+      }
+      ,
+    
+      "discussions-2015-04-07-science-humanity-gap": {
+        "title": "Sciences and Humanities",
+        "author": "",
+        "category": "discussions",
+        "content": "A gap in funding and public perceptionThe works of Einstein and Hawking are often thought of as the pinnacle of the human intellect. (XKCD comic) Yet in the public sphere, people are often expected to know more about history and the arts, than about natural sciences and mathematics, perhaps because the latter ones are for “experts” only.On the other hand, there is a funding gap between the humanities and the sciences in many colleges, as higher education is expected to emphasise the STEM subjects. As Fareed Zakaria points out in this interview, skills and knowledge in the humanities may be of central importance to a workforce in the future (American) economy.What is causing this paradoxical gap in public perception? What kind of balance between the humanities and the sciences will produce an adaptable member of society and economy? What should colleges and research universities do?",
+        "url": "/discussions/2015/04/07/science-humanity-gap/"
+      }
+      ,
+    
+      "discussions-2015-03-31-are-numbers-real": {
+        "title": "Is mathematics (hu)manmade?",
+        "author": "",
+        "category": "discussions",
+        "content": "Is it discovered or invented?When natural scientists like Archimedes ran naked on the streets of Syracuse, he proclaimed “Eureka!” (I’ve found it.) But what should mathematicians proclaim when they complete the proof to a profound theorem? “I’ve found it,” or “I’ve made it?” Is 1+1=2 in other universes, or even when the universe does not exist? (Whatever that means…)It helps a little to watch this (layman’s) video on whether numbers exist.",
+        "url": "/discussions/2015/03/31/are-numbers-real/"
+      }
+      ,
+    
+      "discussions-2015-03-24-faith-in-scientific-worldview": {
+        "title": "Faith in a Scientific Worldview",
+        "author": "",
+        "category": "discussions",
+        "content": "Should faith impact scientific understanding? Can scientific understanding diminish faith?Some people think that science and faith deal with different aspects of inquiry, and do not overlap with or contradict each other (Stephen Jay Gould’s non-overlapping magisteria). Others think that the two do overlap in practice, and in the case of a conflict, one should be preferred to the other.Do faith and science influence each other? Should they? What should one do when the two disagree?",
+        "url": "/discussions/2015/03/24/faith-in-scientific-worldview/"
+      }
+      ,
+    
+      "discussions-2015-03-17-race-and-criminal-justice": {
+        "title": "Race and Criminal Justice",
+        "author": "",
+        "category": "discussions",
+        "content": "The Justice Department recently released a report on its investigations into the shooting of Michael Brown in Ferguson, and also the practices of the Ferguson police department. They found the practices of the police department heavily focused on “collecting revenue” for the city’s coffers, which led to practices which “both reflect and exacerbate existing racial bias, including racial stereotypes.” They saw African American neighborhoods “less as constituents to be protected than as potential offenders and sources of revenue.” A great commentary by Ta-Nehisi Coates.What caused the disproportionate incarceration of African Americans? What underlying problems need to be fixed, and what can we do to help? See Michelle Alexander’s take on this issue (video).",
+        "url": "/discussions/2015/03/17/race-and-criminal-justice/"
+      }
+      ,
+    
+      "discussions-2015-03-03-fishbowl": {
+        "title": "Fishbowl Meeting",
+        "author": "",
+        "category": "discussions",
+        "content": "In the past week, we gathered a fishbowl full of short questions (thought provoking or otherwise) from the Humanist Leaguers. This meeting, we’ll pick out questions from the Fishbowl, and open the floor to a free flow of ideas and responses. It’s going to be lively and exciting!",
+        "url": "/discussions/2015/03/03/fishbowl/"
+      }
+      ,
+    
+      "discussions-2015-02-24-euthanasia": {
+        "title": "Euthanasia",
+        "author": "",
+        "category": "discussions",
+        "content": "Can you “waive” your right to life?As Canada overturns its ban on euthanasia, how can we deal with the moral quandary of “assisted suicide”? Does pain and suffering justify the termination of life? Should a patient’s family and doctor respect his/her wish to die? What kinds of slippery slopes are presented by such a practice? How valid are they?",
+        "url": "/discussions/2015/02/24/euthanasia/"
+      }
+      ,
+    
+      "discussions-2015-02-17-rationality": {
+        "title": "Rationality",
+        "author": "",
+        "category": "discussions",
+        "content": "As humanists, we try to be rational in our worldview and beliefs. But psychology tells us that we aren’t rational, and it doesn’t seem likely we’ll ever be fully rational. To what extent should we use rationality to make decisions, and how rational should we expect other people to be? To step back a bit, what even counts as a rational belief?",
+        "url": "/discussions/2015/02/17/rationality/"
+      }
+      ,
+    
+      "speakers-2015-02-12-chip-walter": {
+        "title": "Darwin Day, featuring Chip Walter",
+        "author": "",
+        "category": "speakers",
+        "content": "A talk by Chip Walter, and an award for Humanist LeagueThe annual Darwin Day is here. We invited journalist and author, Chip Walter, to give a talk on human evolution and its importance to us today. We are also receiving the University Award for Philosophical Diversity from the American Humanist Association. Pizza, cupcakes and drinks will be served.Chip Walter, author of international bestseller Last Ape Standing, explores how a creature as remarkable and strange as a human being came into existence, and why it matters. Is it possible to address the issues we face in the world today if we don’t first investigate the roots of why we do, feel and think the things we do?",
+        "url": "/speakers/2015/02/12/chip-walter/"
+      }
+      ,
+    
+      "discussions-2015-02-10-privilege": {
+        "title": "Privilege",
+        "author": "",
+        "category": "discussions",
+        "content": "“If you don’t have to think about it, it’s privilege.”It’s all too easy to look at our immediate surroundings and conclude, “inequality due to race, gender and sexuality is pretty much gone.” We often forget that we live in a privileged bubble surrounded by a country where Black people are more likely to die of gun violence, and women are taken less seriously, even in academia. How can we step outside of our sheltered position, and improve our empathy for others?",
+        "url": "/discussions/2015/02/10/privilege/"
+      }
+      ,
+    
+      "discussions-2015-02-03-violence-and-social-change": {
+        "title": "Violence and Social Change",
+        "author": "",
+        "category": "discussions",
+        "content": "When if ever is violence justified?Few social changes can happen without a stir, and stakes are high. From the liberation of slaves to the independence of India, people were constantly torn between peaceful negotiations and violent uprisings. To fight against tyranny, is it sometimes necessary to use violence as a means to an end? When is the line crossed? Will this violence turn into a new tyrant?",
+        "url": "/discussions/2015/02/03/violence-and-social-change/"
+      }
+      ,
+    
+      "discussions-2015-01-27-are-we-special": {
+        "title": "Anthropocentrism and Speciesism",
+        "author": "",
+        "category": "discussions",
+        "content": "Difficult to pronounce, but what do we think about them?It is inevitable to think of “us” before “others”, but with the belief of equality, humanists have extended our compassion to outside of our family, our creed and our race. But wait… We are just HUMANISTS. What about the other creatures of the Earth, sentient or otherwise? How much do they deserve ethical treatment? How valid are we in self-asserting our moral supremacy?",
+        "url": "/discussions/2015/01/27/are-we-special/"
+      }
+      ,
+    
+      "discussions-2015-01-20-freedom-of-speech": {
+        "title": "Freedom of Speech",
+        "author": "",
+        "category": "discussions",
+        "content": "Are there limits and how best to defend it.In the shadow of recent events in Paris, we have seen millions of people marching for the freedom of speech across France, chanting Je Suis Charlie. On the other hand, journalists and even the Pope have expressed the opinion that this freedom has its limits, and Charlie Hebdo should not be celebrated. What do you think? As humanists, what do we think can better promote human flourishing?",
+        "url": "/discussions/2015/01/20/freedom-of-speech/"
+      }
+      ,
+    
+      "discussions-2015-01-13-new-year": {
+        "title": "A New Year for HL",
+        "author": "",
+        "category": "discussions",
+        "content": "Happy New YearThanks to all of you for an amazing semester at Humanist League. We’ve discussed topics ranging from mental health to economic inequality, hosted four speaker events, and had a bunch of get-togethers and dinners. This would not have been possible without your enthused participation.Let’s make 2015 even greater!Get-TogetherI’m sure lots of fun things have happened in your break. Let’s share all the fun we’ve had, the family gatherings, religious services, travelling… over some tasty snacks! On the other hand, let us also take some time to remember the lives lost to natural and human disasters in the past few weeks.",
+        "url": "/discussions/2015/01/13/new-year/"
+      }
+      ,
+    
+      "discussions-2014-12-02-last-meeting": {
+        "title": "Last meeting of 2014!",
+        "author": "",
+        "category": "discussions",
+        "content": "Snacks and reflectionAs we approach the end of 2014, why don’t we relax and look back on this busy yet fruitful semester for Humanist League? What did you enjoy? What disappointed you? What could we have done better? What should we do next?Let’s “air our grievances” over desserts and drinks on…Tuesday at 5:30",
+        "url": "/discussions/2014/12/02/last-meeting/"
+      }
+      ,
+    
+      "discussions-2014-11-25-meaning-of-christmas": {
+        "title": "What is the meaning of Christmas?",
+        "author": "",
+        "category": "discussions",
+        "content": "From pagan to Christian; from Christian to commercial…(As many people travel home for Thanksgiving break, we shall defer the topic of speciesism to a later date, since it is such a popular topic.)More than 150 countries and regions recognise Christmas as an official holiday. The holiday may have originated as a pagan celebration of the winter solstice, although nowadays it has been associated with the celebration of the birth of Jesus.As a global cultural holiday, how should Christmas be celebrated? Should secular governments endorse religious Christmas symbols? Will the commercialisation and popularisation of Christmas move it away from its religious meanings?",
+        "url": "/discussions/2014/11/25/meaning-of-christmas/"
+      }
+      ,
+    
+      "discussions-2014-11-18-economic-inequality": {
+        "title": "Economic Inequality",
+        "author": "",
+        "category": "discussions",
+        "content": "It is not difficult to see that income inequality in America has risen to historic highs (check out this Wikipedia article). According to Robert Reich in the acclaimed documentary Inequality for All, this not only lowers the financial well-being of American families, but also undermines democracy itself.At what point does inequality become harmful to a society, and in which ways? Should we be concerned with inequality for humanitarian reasons, or because it hurts the economy as well? What are some causes of this phenomenon and some possible solutions?Want some quick info on inequality? Watch this short video!",
+        "url": "/discussions/2014/11/18/economic-inequality/"
+      }
+      ,
+    
+      "speakers-2014-11-17-daniel-fincke": {
+        "title": "Daniel Fincke – Empowerment Ethics",
+        "author": "",
+        "category": "speakers",
+        "content": "How Ethics is More Like Science Than You ThinkMany people consider morality a matter of subjective, emotional preference, or of unarguable faith.  Yet ethical inquiry is (or can be) comparably rational in form to sciences. In this presentation I will point out the formal similarities between morality and areas of knowledge like the sciences, math, and technology, and sketch a constructive program I call “empowerment ethics.”",
+        "url": "/speakers/2014/11/17/daniel-fincke/"
+      }
+      ,
+    
+      "discussions-2014-11-11-scientific-spirituality": {
+        "title": "Scientific Spirituality?",
+        "author": "",
+        "category": "discussions",
+        "content": "  “All great aesthetic and spiritual sensations: transcendence, awe, wonder, bliss, are not diminished, but are enhanced by taking a naturalistic view of the universe. By ruthlessly purging what is false, and relentlessly pursuing what is true, Science, far from being the enemy of spirituality as it is often portrayed, in fact offers the very best route to spirituality. This is what Carl Sagan taught me.” – James CroftSpirituality is a fuzzy word which obscures as much as it reveals. Many people claim to be “spiritual, but not religious”. Meanwhile, many view science as that it is incompatible with any sense of spirituality. However, James Croft believes that Carl Sagan’s approach to science was embedded within an ethical and existential framework that can best be described as “spiritual”. One which holds a sense of possibility, of wonder of the magnitude of not just the universe, but of the human potential to make meaning within it.How can a scientific worldview be spiritual, if at all? Should science concern itself just with discovering truth, or with the pursuit of meaning as well? If we shouldn’t call this approach and framework “spiritual”, how else can we describe it?",
+        "url": "/discussions/2014/11/11/scientific-spirituality/"
+      }
+      ,
+    
+      "discussions-2014-11-04-cultural-appropration": {
+        "title": "Cultural Appropration",
+        "author": "",
+        "category": "discussions",
+        "content": "Cultural exchange and transfer between societies has been occurring since the dawn of humanity. Some argue that when a culture which has oppressed another or is dominant over another “borrows” something from another culture, it is an unacceptable form of cultural appropriation. One example is the fashion controversy over Western and British music artists wearing bindis, which are a traditional forehead decoration in South Asia with religious significance. Another example is the scores of controversial costumes that are available in stores every year for Halloween.Is it acceptable for dominant societies to re-appropriate the elements of other cultures? Where and how do we draw the line between appreciation of other cultures and ignorance or blatant mockery of them? How important is it for humans to even have distinct, tribal cultures, as opposed to embracing a mono-culture?",
+        "url": "/discussions/2014/11/04/cultural-appropration/"
+      }
+      ,
+    
+      "discussions-2014-10-28-artificial-intelligence": {
+        "title": "Artificial Intelligence",
+        "author": "",
+        "category": "discussions",
+        "content": "  “Success in creating A.I. would be the biggest event in human history. Unfortunately, it might also be the last, unless we learn how to avoid the risks.” - Stephen HawkingFilms and novels warning us of the potential harms artificial intelligence are certainly not lacking. Some of the leading technologists and scientists share the same concern. Yet AI will no doubt bring great advances to humanity.Is it responsible for us to create artificial intelligence? What might be the philosophical implications? Will this be the beginning of a much feared dystopia? What will the relationship between humans and intelligent machines be?",
+        "url": "/discussions/2014/10/28/artificial-intelligence/"
+      }
+      ,
+    
+      "discussions-2014-10-21-sexual-harassment-on-college-campus": {
+        "title": "Sexual Harassment",
+        "author": "",
+        "category": "discussions",
+        "content": "A Presentation by Gina Casalegno, Dean of Student AffairsThe university updated the policies on sexual harassment last September. The dean of student affairs, Gina Casalegno, is very keen on receiving some feedback from the student community. She will be giving a short presentation at our regular meeting on Tuesday on these policies, followed by a discussion on the broader issue.How do we raise awareness on the harms of sexual harassment on college campuses? Where is the line between permissible display of romantic interest and inappropriate behaviours? In California, a law was passed to require state-funded schools to have explicit policy on “no sex without express consent”. Is this a good law? What counts as express consent?",
+        "url": "/discussions/2014/10/21/sexual-harassment-on-college-campus/"
+      }
+      ,
+    
+      "discussions-2014-10-14-intro-to-christian-humanisim": {
+        "title": "Intro to Christian Humanism",
+        "author": "",
+        "category": "discussions",
+        "content": "A Brief History Followed by a Lengthy DiscussionWhat is the human person? What can we learn from the ancient Greek philosophers? What does Christian humanism look like in the world today? The history of humanism is intertwined with that of religion, and our members Joey and Keith will be leading discussion this week about just how they are related, and how that history led to humanism today!",
+        "url": "/discussions/2014/10/14/intro-to-christian-humanisim/"
+      }
+      ,
+    
+      "speakers-2014-10-07-hemant-mehta": {
+        "title": "Hemant Mehta – Even Skeptics Can Be Fooled",
+        "author": "",
+        "category": "speakers",
+        "content": "A talk on critical thinking and skepticismInstead of a meeting, this Tuesday we present a talk by Hemant Mehta, editor of the popular Friendly Atheist blog, on how we can all improve our skeptical abilities.",
+        "url": "/speakers/2014/10/07/hemant-mehta/"
+      }
+      ,
+    
+      "speakers-2014-10-07-sagan-fest-croft": {
+        "title": "Carl Sagan Fest – A Celebration of Science and Human Values",
+        "author": "",
+        "category": "speakers",
+        "content": "It’s finally here! Our signature event of the semester will be held this Friday. Join us for a campus-wide celebration of science and human values, and to commemorate the life and works of scientist and humanist, Carl Sagan. We have two exciting and engaging speakers lined up, as well as pizza, apple pie, Sagan videos and tons of fun. Spread the word and bring your friends!Speaker 1:James CroftLeader in training, Ethical Society of St. LouisSagan’s Scientific SpiritualitySpeaker 2:Dr Kunal GhoshProfessor of physics, Mellon College of ScienceLooking through Windows of Wonderment",
+        "url": "/speakers/2014/10/07/sagan-fest-croft/"
+      }
+      ,
+    
+      "discussions-2014-09-30-meaning-in-life": {
+        "title": "The meaning in life",
+        "author": "",
+        "category": "discussions",
+        "content": "If we are star-stuff, what gives us meaning in life?The great physicist Richard Feynman likened humans to “Atoms With Consciousness, Matter With Curiosity”. Is there some inherent meaning to life? How do we find out what that is? What determines the value of life, if indeed we are just a dance of molecules and interactions? Are we just living matter, or do we live to matter?",
+        "url": "/discussions/2014/09/30/meaning-in-life/"
+      }
+      ,
+    
+      "discussions-2014-09-23-when-the-mind-gets-sick": {
+        "title": "Mental health",
+        "author": "",
+        "category": "discussions",
+        "content": "According to the UN, 1 in 4 globally will experience mental health problems in their lifetime, and almost one million people die every year due to suicide. How are these people treated in the US and worldwide? What sorts of stigma do people have regarding psychological diseases? When someone acts or thinks abnormally, is it feature of their personality, or a sickness that took hold of their normal self?People going through mental health problems deserve our care and understanding. How can we encourage each other to treat them with respect and dignity?",
+        "url": "/discussions/2014/09/23/when-the-mind-gets-sick/"
+      }
+      ,
+    
+      "discussions-2014-09-16-how-free-should-speech-be": {
+        "title": "How free should speech be?",
+        "author": "",
+        "category": "discussions",
+        "content": "Many legal systems hold the freedom of speech to the highest regard. But free speech is not free from consequences. Should employees who made racist or sexist comments be fired? Does this form of punishment contradict the spirit of free speech? Should hate speech be outlawed?",
+        "url": "/discussions/2014/09/16/how-free-should-speech-be/"
+      }
+      ,
+    
+      "discussions-2014-09-09-science-and-morality": {
+        "title": "Science and Morality",
+        "author": "",
+        "category": "discussions",
+        "content": "Science without morality is lame. Morality without science is blind.– a paraphrase on EinsteinCan science answer moral questions? If so, how? Will the use of science lead to a single definitive answer to every moral dilemma?",
+        "url": "/discussions/2014/09/09/science-and-morality/"
+      }
+      ,
+    
+      "discussions-2014-09-02-what-is-humanism": {
+        "title": "What is Humanism?",
+        "author": "",
+        "category": "discussions",
+        "content": "Reason + Compassion = Human flourishingEvery year we try to ask our members what humanism means to them, and perhaps finally give a succinct definition of humanism. Is it the end of tribalism? Does it have to be non-religious? How does it treat the human instinct to be selfish?",
+        "url": "/discussions/2014/09/02/what-is-humanism/"
+      }
+      ,
+    
+      "discussions-2014-04-29-last-meeting": {
+        "title": "Last Meeting",
+        "author": "",
+        "category": "discussions",
+        "content": "As the semester comes to an end, we will be having our final meeting this Tuesday. While we have pizzas and drinks, we will just chat and reflect on our achievements in what is only the second year of the Humanist League. We look forward to hearing what you liked and disliked, and your suggestions for future directions!",
+        "url": "/discussions/2014/04/29/last-meeting/"
+      }
+      ,
+    
+      "discussions-2014-04-22-the-long-reach-of-reason": {
+        "title": "The long reach of Reason",
+        "author": "",
+        "category": "discussions",
+        "content": "Steven Pinker and Rebecca Newberger Goldstein voiced in a very comprehensive dialogue on Reason, what a lot of humanists value greatly. As we will not watch the entire video during the meeting, please take 15 minutes to watch this excellent animation of the dialogue.",
+        "url": "/discussions/2014/04/22/the-long-reach-of-reason/"
+      }
+      ,
+    
+      "discussions-2014-04-15-hl-allies-joint-meeting": {
+        "title": "Humanist League / ALLIES joint meeting&quot;&quot;",
+        "author": "",
+        "category": "discussions",
+        "content": "As a first-time collaboration between Humanist League and ALLIES, the LGBTQ awareness group at CMU, we will discuss issues regarding the acceptance of all genders and sexual orientations. How far have we gone? What about the rest of the 51 gender options on Facebook? How can other underprivileged groups learn from the “coming out of the closet” campaign?",
+        "url": "/discussions/2014/04/15/hl-allies-joint-meeting/"
+      }
+      ,
+    
+      "speakers-2014-04-01-jonathan-gottschall": {
+        "title": "Jonathan Gottschall – The Science of Fiction",
+        "author": "",
+        "category": "speakers",
+        "content": "Jointly with Aha!, the Humanist League presents The Science of Fiction - how stories make us human, a talk by author and scholar Jonathan Gottschall. This Tuesday, instead of a discussion, we will be meeting 5pm at 136A Adamson Wing, CMU Baker Hall to learn how humans shape stories, and how stories shape us.",
+        "url": "/speakers/2014/04/01/jonathan-gottschall/"
+      }
+      ,
+    
+      "discussions-2014-03-25-aristotle-and-sex": {
+        "title": "Aristotle and Sex",
+        "author": "",
+        "category": "discussions",
+        "content": "How Aristotle’s 4 Causes Can Help Shape Your WorldviewThis week, our Catholic members are offered a chance to lead a discussion from a more religious perspective. We all have a philosophy, whether we notice it or not. But what should it be ultimately founded on? How can Aristotle’s 4 causes help us do that?",
+        "url": "/discussions/2014/03/25/aristotle-and-sex/"
+      }
+      ,
+    
+      "discussions-2014-03-18-augmented-reality": {
+        "title": "Augmented Reality - with Pugwash",
+        "author": "",
+        "category": "discussions",
+        "content": "Will we want to live in a world where a digital barrier exists between reality and our senses?Technologies such as Google Glass may improve our ability to sea, hear, and perhaps even to feel and to taste.However, will we lose an aspect of what makes us human by experiencing the world indirectly through technology, as opposed to directly through our senses? Is such a virtual experience inferior to the real one?In a nutshell, will augmented reality diminish our humanity?",
+        "url": "/discussions/2014/03/18/augmented-reality/"
+      }
+      ,
+    
+      "discussions-2014-03-04-what-is-life": {
+        "title": "What is life?",
+        "author": "",
+        "category": "discussions",
+        "content": "What is it? A mechanistic process churning food into energy? Is there some kind of essence of life? Sentience? Is there something inherent to life that we should care for? Is it mere semantics?",
+        "url": "/discussions/2014/03/04/what-is-life/"
+      }
+      ,
+    
+      "discussions-2014-02-25-humanists-eat": {
+        "title": "Humanists eat...",
+        "author": "",
+        "category": "discussions",
+        "content": "Vegetarians eat vegetables. What should humanists eat?Humanists care about human welfare. How much do we care about animal welfare? Is there any humanist moral reasons to be a vegetarian?",
+        "url": "/discussions/2014/02/25/humanists-eat/"
+      }
+      ,
+    
+      "discussions-2014-02-18-barrier-to-science": {
+        "title": "Barrier to Science",
+        "author": "",
+        "category": "discussions",
+        "content": "Only 74% of Americans know that the Earth revolves around the Sun, and only 48% know that humans evolved from earlier species of animals. (See this article) A scientifically literate citizenry is essential to the making of public policies. Why are the percentages so low? What have we done wrong? How can we do better?",
+        "url": "/discussions/2014/02/18/barrier-to-science/"
+      }
+      ,
+    
+      "discussions-2014-02-11-sex-positivity": {
+        "title": "Sex Positivity and Religious Ethics",
+        "author": "",
+        "category": "discussions",
+        "content": "The sexual morality of traditional religion tends to be based, not on solid ethical principles, but on a set of taboos about what kinds of sex God does and doesn’t want people to have. And while the sex-positive community offers a more thoughtful view of sexual morality, it still often frames sexuality as positive by seeing it as a spiritual experience. What are some atheist alternatives to these views? How can atheists view sexual ethics without a belief in God? And how can atheists view sexual transcendence without a belief in the supernatural?",
+        "url": "/discussions/2014/02/11/sex-positivity/"
+      }
+      ,
+    
+      "speakers-2014-02-10-greta-christina": {
+        "title": "Greta Christina – Sex Positivism",
+        "author": "",
+        "category": "speakers",
+        "content": "Why Live With God’s Sexual Hang-Ups?The sexual morality of traditional religion tends to be based, not on solid ethical principles, but on a set of taboos about what kinds of sex God does and doesn’t want people to have. And while the sex-positive community offers a more thoughtful view of sexual morality, it still often frames sexuality as positive by seeing it as a spiritual experience. What are some atheist alternatives to these views? How can atheists view sexual ethics without a belief in God? And how can atheists view sexual transcendence without a belief in the supernatural?",
+        "url": "/speakers/2014/02/10/greta-christina/"
+      }
+      ,
+    
+      "discussions-2014-02-08-thats-here-thats-home-thats-us": {
+        "title": "Look again at that dot",
+        "author": "",
+        "category": "discussions",
+        "content": "That’s here. That’s home. That’s us.  On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives … every saint and sinner in the history of our species lived there – on a mote of dust suspended in a sunbeam. –Carl SaganCome with us on Tuesday 5:30pm to contemplate our fragile existence.",
+        "url": "/discussions/2014/02/08/thats-here-thats-home-thats-us/"
+      }
+      ,
+    
+      "discussions-2014-02-04-why-religion": {
+        "title": "Why Religion?",
+        "author": "",
+        "category": "discussions",
+        "content": "At least half of the world’s population is religious, according to many global polls. Why are people religious? It offers people a sense of morality, greater existence, belonging, and meaning. How can a less religious society offer the same? Are such societies losing something valuable?",
+        "url": "/discussions/2014/02/04/why-religion/"
+      }
+      ,
+    
+      "discussions-2014-01-28-free-will": {
+        "title": "Free Will",
+        "author": "",
+        "category": "discussions",
+        "content": "This Tuesday, we’ll be talking about these age-old questions: Is there Free Will? Is Free Will an illusion? Does it matter if it’s an illusion? Philosophers, scientists and theologians have fought over this question throughout the centuries. Will we settle it once and for all?",
+        "url": "/discussions/2014/01/28/free-will/"
+      }
+      ,
+    
+      "discussions-2013-12-03-humanist-holidays": {
+        "title": "Humanist Holidays?!?!?!",
+        "author": "",
+        "category": "discussions",
+        "content": "Irreverent Experiments with Holiday RitualNon-religious folk are often puzzled by holiday rituals. Though many find them meaningful and enjoyable, to others their value and function remain shrouded in mystery.  Are holidays and holiday rituals important?  If so, why?  If not, why not?  Join us as we ponder the fun and function of holiday ritual–and perhaps experiment with a few of our own!",
+        "url": "/discussions/2013/12/03/humanist-holidays/"
+      }
+      ,
+    
+      "discussions-2013-11-19-can-faith-be-reasonable": {
+        "title": "Is Faith in God Reasonable?",
+        "author": "",
+        "category": "discussions",
+        "content": "What’s your experience with religious faith?  Has it benefited you or enriched your life?  Does it remain important to you or people you care about?  Or have you, for better or worse, “lost” your faith?Faith clearly plays an important role in billions of lives. Many claim that faith in God comforts, strengthens and encourages them. Is this a good reason for having faith? Why or why not? When reason and faith conflict, what should one do? Join us as we ponder the role of faith in human experience: it’s joys and sorrows, its power and subtlety, its benefits and costs.",
+        "url": "/discussions/2013/11/19/can-faith-be-reasonable/"
+      }
+      ,
+    
+      "speakers-2013-11-12-sagan-fest-trumble": {
+        "title": "Carl Sagan Fest – Carl Sagan and The Way of Science",
+        "author": "",
+        "category": "speakers",
+        "content": "Carl Sagan believed that empirical science should be used wherever possible to broaden our understanding of the universe and lend clarity to the human condition, even if it means occasionally treading on sacred ground. In his new book The Way of Science, author Dennis Trumble examines this claim by asking the question: Would grasping the world “as it really is” make for a more meaningful, happy, and fulfilling life, or are we better off taking some things on faith?",
+        "url": "/speakers/2013/11/12/sagan-fest-trumble/"
+      }
+      ,
+    
+      "discussions-2013-10-29-religious-fundamentalism-and-violence": {
+        "title": "What is it about fundamentalism and violence?",
+        "author": "",
+        "category": "discussions",
+        "content": "Is there something about religious fundamentalism that makes people more prone to violence? If not, why are suicide bombers almost invariably devout Islamists? If so, how are we to understand the causal connection between the belief and the behavior? Have weapons of mass destruction made religious zeal obsolete–something that we, as a species, must outgrow?",
+        "url": "/discussions/2013/10/29/religious-fundamentalism-and-violence/"
+      }
+      ,
+    
+      "discussions-2013-10-22-understanding-sexual-ethics": {
+        "title": "&quot;Blurred Lines&quot;?  Religion, Humanism and Sexual Ethics",
+        "author": "",
+        "category": "discussions",
+        "content": "Does Robin Thicke’s popular song “Blurred Lines” endorse date rape? What forms of sexual behavior “cross the line,” and how is one to know?Are the guilt and shame that so many feel about their sexuality natural and inevitable? Or are they learned? Where do these negative attitudes come from, and can they be replaced with more positive attitudes? Are religious sexual taboos rooted in sound moral intuitions, or arbitrary strictures? What are the alternatives to faith-based sexual ethics? Do they make sense?",
+        "url": "/discussions/2013/10/22/understanding-sexual-ethics/"
+      }
+      ,
+    
+      "speakers-2013-10-07-julia-galef": {
+        "title": "Julia Galef – How to Change Your Mind",
+        "author": "",
+        "category": "speakers",
+        "content": "Science and Bayesianism in everyday lifeOne of science’s biggest strengths is its ability to change its mind when new evidence comes to light. Unfortunately, we as individuals don’t often live up to that ideal – even scientists aren’t perfect at changing their minds, and can be as bad as the rest of us once they leave the lab. This talk will explain Bayesianism as a theory of how one should change one’s mind in response to new evidence, and discuss its uses and limitations in real life. We’ll also explore the science behind why we’re so resistant to changing our minds, and some promising techniques that might help us “un-stick” our opinions when they’re stuck.  Julia Galef is the President and Founder of the Center for Applied Rationality (CFAR), a nonprofit think tank based in Berkeley, CA.  CFR is devoted to developing, testing, and training people in reasoning and decision making strategies. It turns insights from decision theory, math, and cognitive science into simple mental habits that help with making more accurate predictions, avoiding rationalizations, following through on plans, and other such skills.",
+        "url": "/speakers/2013/10/07/julia-galef/"
+      }
+      ,
+    
+      "discussions-2013-10-01-understanding-others": {
+        "title": "Understanding Others...",
+        "author": "",
+        "category": "discussions",
+        "content": "Humanists like to understand how different people see the world. We also like to practice the art of dialogue that bridges worldviews.  As part of this ongoing project, we meet this afternoon with a lively representative of a small religious denomination known as The New Church, a religion inspired by the writings of Emanuel Swedenborg.Ned Uber, a thoughtful and interesting representative of the New Church, will join us Tuesday October 1st, from 4:30-5:30.  Come learn with us!",
+        "url": "/discussions/2013/10/01/understanding-others/"
+      }
+      ,
+    
+      "discussions-2013-09-24-should-kids-be-taught-religion": {
+        "title": "Should kids be taught religion?",
+        "author": "",
+        "category": "discussions",
+        "content": "Should kids be taught religion?  Which one(s) and why?  In what way, and at what age?We’ll watch a provocative video and discuss these important questions.  Over cookies.  Heinously delicious cookies.At Humanist League, of course, food for thought is always on the menu.  We will watch a short TED talk in which philosopher Daniel Dennett (1) critiques megachurch pastor Rick Warren, and (2) argues that religion should be taught in our public schools.",
+        "url": "/discussions/2013/09/24/should-kids-be-taught-religion/"
+      }
+      ,
+    
+      "discussions-2013-09-10-welcome-to-humanist-league": {
+        "title": "How should we belong?",
+        "author": "",
+        "category": "discussions",
+        "content": "We’ve all wanted to belong to some group. Some of us join fraternities, some join fellowships, some reaffirm their cultural and ethnic identity. But how can this be done without calling everyone else the “outsiders”? How can we strengthen in-group bonds without breaking those between groups?This is a question of enduring human interest. Come and help us answer it!",
+        "url": "/discussions/2013/09/10/welcome-to-humanist-league/"
+      }
+      ,
+    
+      "discussions-2013-09-03-psychology-of-politics": {
+        "title": "The Roots of Political Ideology",
+        "author": "",
+        "category": "discussions",
+        "content": "Why do conservatives and liberals see the world so differently? Learn what social psychologists have discovered about the roots of political partisanship–and what we can do about it.On Tuesday the 3rd, we’ll discuss this fascinating new research, and what it might mean for the effort to reduce ideological polarization.",
+        "url": "/discussions/2013/09/03/psychology-of-politics/"
+      }
+      ,
+    
+      "discussions-2013-08-27-welcome-back": {
+        "title": "Welcome Back!",
+        "author": "",
+        "category": "discussions",
+        "content": "A warm welcome to all our fellow humanists!  We did some neat stuff last year, and had a lot of fun in the process.  This year, we hope to build on our promising start, and grow our vital community of inquiry.What’s the CMU Humanist League all about, again?  Thanks for asking!  We:  Enjoy the free play of ideas  Promote constructive dialogue on subjects that traditionally divide humanity (ethics, politics, theology…)  Seek to break down ideological barriers to widespread human flourishing.We investigate questions of enduring human interest, practice the art of building mutual understanding, and enjoy great conversation.  We host educational events, do community service projects, and provide fellowship.Must you be an atheist or a secular humanist to join?  Not at all!  We are inclusive humanists.  This means we welcome people of all faiths–or no faith.  Just bring an open mind and a passion for thinking things through!",
+        "url": "/discussions/2013/08/27/welcome-back/"
       }
       
     
