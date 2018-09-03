@@ -1,0 +1,19 @@
+# Site navigation links
+
+- title: Home
+  url: /
+
+- title: About
+  url: /about/
+
+- title: Discussions
+  url: /discussions/
+
+- title: Speakers
+  url: /speakers/
+  
+- title: Calendar
+  url: /calendar/
+
+- title: Search
+  url: /search/

@@ -1,0 +1,9 @@
+---
+title: Identity Politics
+date:      2017-04-24 16:30:00
+scheduled: 2017-04-23 17:48:00
+tags: [identity, politics]
+---
+We identify ourselves as belonging to many different different groups, and every group that we belong to informs our behaviors and decisions. But when should being part of a group dictate your political decisions? Can a White working class American and a Transgender African American ever vote in the same way? We have seen an increase in the use of the phrase identity politics, especially in the last election, where both sides have been accused of pandering to certain groups to gain their votes. The left has been accused of using identity politics on topics such as race, gender, and sexuality to gain the votes of those who identify as part of those groups. While the right has been said to placate the rich, white, “working-class” and religious. If you identify with one of these groups you likely feel pressured to vote for the party that seems to support your group. Even if this means that the rest of the platform you are supporting wouldn’t be something you would choose.
+
+These identity informed politics often use tactics that abstract from the issues at hand, and polarize groups of people. This can become even more concerning when certain groups of people feel that they can not vote one way or another because their welfare is going to be at stake. Creating a “us versus them” mentality which creates more than political divides, but social, racial, and economic ones as well, and at that point may make us question the larger issues within our country rather than with the political parties. How do we move away from identities forming the basis of political parties and instead focus on critical debate and examination of the issues at play? At what point do political parties formed around identity groups rather than policy positions become an issue that prevents political progress?

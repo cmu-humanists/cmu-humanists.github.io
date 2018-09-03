@@ -1,0 +1,7 @@
+---
+title: 'Rise of the "Nones"'
+date:      2016-10-20 16:30:00
+scheduled: 2016-10-19 07:00:00
+tags: [demographics, religion, identity]
+---
+The “nones” are a demographic group characterized by a lack of religious identification, called “nones” by their response to the question: What religion do you identify with? Perhaps you might answer such a question with “none” too, in which case you would be counted as part of this group. Surveys have shown a rapid rise in the number of people who are answering in such a way. However such an answer does not imply that all these people are necessarily Atheist or Agnostic. In fact a [Pew Research Center Study](http://www.pewforum.org/2012/10/09/nones-on-the-rise/#growth) found that a large majority of these "nones" are neither agnostic nor atheist but simply religiously unaffiliated. Further examination shows this group spans a wide variety of demographic groups, and that the "nones" have increased most dramatically among younger generations (under 30). This study offers four theories for this trend: Political Backlash, Delays in Marriage, Broad Social Disengagement, and Secularization. What do you think is the reason for this rise in the religiously unaffiliated? Why is it more prevalent with younger generations? What does it mean for the future of American Society? Is this just an American phenomena or is it part of a broader Global trend?

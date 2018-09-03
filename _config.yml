@@ -1,0 +1,61 @@
+# Site wide configuration
+
+locale: en_US
+title: Humanist League
+logo: logo.svg
+description: The Carnegie Mellon University Humanist League is dedicated to building a community of humanists, who strive to improve the human condition through reason and compassion.
+url: https://cmuhl.org
+#url: http://cmuhl.org/test-site
+
+owner:
+  name: CMU Humanist League
+  avatar: hl-bio-photo.png
+  email: cmu.humanists@gmail.com
+  disqus-shortname: # cmuhl
+  facebook: CmuHumanistLeague
+  twitter: #username
+  github: #username
+  google:
+    analytics: UA-107177276-1
+    calendar: 5qsdl0kudv3s4tqug2l1tlbum0%40group.calendar.google.com # the src= part of the embed code
+
+# Jekyll configuration
+
+destination: ../cmu-humanists.github.io
+#destination: ../test-site
+permalink: pretty
+future: true
+timezone: America/New_York
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      # comments: true
+  -
+    scope:
+      path: "_posts/discussions"
+    values:
+      category: discussions
+      category-description: "Discussion Topic"
+      entry-meta: true
+  -
+    scope:
+      path: "_posts/speakers"
+    values:
+      category: speakers
+      category-description: "Speaker Event"
+      entry-meta: false
+
+theme: jekyll-theme-cmu-humanists
+
+exclude: ["LICENSE", "README.md", "Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
