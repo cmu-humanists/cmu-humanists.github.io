@@ -21,7 +21,7 @@ owner:
 
 # Jekyll configuration
 
-destination: ../cmu-humanists.github.io
+destination: ../cmuhl.org
 #destination: ../test-site
 permalink: pretty
 future: true
@@ -56,6 +56,7 @@ defaults:
       category-description: "Speaker Event"
       entry-meta: false
 
-theme: jekyll-theme-cmu-humanists
+#theme: jekyll-theme-cmu-humanists
+remote_theme: cmu-humanists/jekyll-theme-cmu-humanists
 
 exclude: ["LICENSE", "README.md", "Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
