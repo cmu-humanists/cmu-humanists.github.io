@@ -23,7 +23,8 @@ search_omit: true
   <li><article>
     <div class="entry-header">
       <div class="title">
-        Thanks for a great year! Check back in the fall for next semester's discussions and events!
+<!--- Thanks for a great year! Check back in the fall for next semester's discussions and events! --->
+Check back on Monday for Wednesday's discussion topic!
       </div>
     </div>
   </article>

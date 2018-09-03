@@ -21,8 +21,7 @@ owner:
 
 # Jekyll configuration
 
-destination: ../cmuhl.org
-#destination: ../test-site
+destination: ../test-site
 permalink: pretty
 future: true
 timezone: America/New_York
