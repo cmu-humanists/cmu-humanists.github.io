@@ -6,9 +6,9 @@ show_logo: true
 search_omit: true
 ---
 
-<div class='semesters-wrapper'>
+<div class='center-btns'>
 {% capture nowyear %}{{'now' | date: '%Y'}}{% endcapture %}
-{% assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+{% assign postsByYear = site.categories.discussions | group_by_exp: "post", "post.date | date: '%Y'" %}
 {% for year in postsByYear %}
   {% assign postsByMonth = year.items | group_by_exp:"post", "post.date | date: '%m'" %}
   {% assign fallPosts = "" | split: ',' %}
