@@ -38,3 +38,36 @@ View our full constitution <a href="http://goo.gl/s3DSX" target="_blank">here</a
 # The Executive Board
 
 {% include list-people.html %}
+
+### Previous Executive Boards
+- 2016 – 2017: 
+  - Aiko Kyle &#8213; President
+  - Clara Nelson &#8213; Vice President
+  - Katie Beittenmiller &#8213; Events Coordinator
+  - Peter Boyland &#8213; Treasurer
+  - Jeremy Huang &#8213; Social Chair
+  - Prof. Andy Norman &#8213; Faculty Advisor
+- 2015 – 2016: 
+  - Katie Beittenmiller &#8213; President
+  - Winston Yin &#8213; Vice-President
+  - Aiko Kyle &#8213; Events Coordinator
+  - Ezra Yuan &#8213; Treasurer Fall 2015
+  - Alex Jackson &#8213; Treasurer Spring 2016
+  - Clara Nelson &#8213; Social Chair
+  - Prof. Andy Norman &#8213; Faculty Advisor
+- 2014 – 2015: 
+  - Winston Yin &#8213; President
+  - David Koopman &#8213; Fall 2014 Treasurer
+  - Ezra Yuan &#8213; Spring 2015 Treasurer
+  - Katie Beittenmiller &#8213; Social Chair
+  - Prof. Andy Norman &#8213; Faculty Advisor
+- 2013 – 2014: 
+  - Jie Guan &#8213; President
+  - Luke Masa &#8213; Treasurer
+  - Winston Yin &#8213; Social Chair
+  - Prof. Andy Norman &#8213; Faculty Advisor
+- 2012 – 2013: 
+  - James A. Laslavic &#8213; President
+  - Winston Yin &#8213; Treasurer
+  - Jie Guan &#8213; Social Chair
+  - Prof. Andy Norman &#8213; Faculty Advisor

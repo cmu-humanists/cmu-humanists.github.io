@@ -6,7 +6,7 @@ show_logo: true
 search_omit: true
 ---
 
-<div class='center-btns'>
+<div class='post-list-selector'>
 {% capture nowyear %}{{'now' | date: '%Y'}}{% endcapture %}
 {% assign postsByYear = site.categories.discussions | group_by_exp: "post", "post.date | date: '%Y'" %}
 {% for year in postsByYear %}
@@ -22,11 +22,11 @@ search_omit: true
     {% endif %}
   {% endfor %}
   {% if fallPosts.size != 0 %}
-      <label for='cp-f{{ year.name }}' class="btn">Fall {{ year.name }}</label>
+      <label for='f{{ year.name }}' class="btn">Fall {{ year.name }}</label>
       {% if year.name == nowyear %}
-        <input type='radio' name='a' id='cp-f{{ year.name }}' checked='checked'>
+        <input type='radio' name='a' id='f{{ year.name }}' checked='checked'>
       {% else %}
-        <input type='radio' name='a' id='cp-f{{ year.name }}'>
+        <input type='radio' name='a' id='f{{ year.name }}'>
       {% endif %}
       <ul class="post-list">
         {% for post in fallPosts %}
@@ -35,11 +35,11 @@ search_omit: true
       </ul>
   {% endif %}
   {% if springPosts.size != 0 %}
-      <label for='cp-s{{ year.name }}' class="btn">Spring {{ year.name }}</label>
+      <label for='s{{ year.name }}' class="btn">Spring {{ year.name }}</label>
       {% if year.name == nowyear and fallPosts.size == 0 %}
-        <input type='radio' name='a' id='cp-s{{ year.name }}' checked='checked'>
+        <input type='radio' name='a' id='s{{ year.name }}' checked='checked'>
       {% else %}
-        <input type='radio' name='a' id='cp-s{{ year.name }}'>
+        <input type='radio' name='a' id='s{{ year.name }}'>
       {% endif %}
       <ul class="post-list">
         {% for post in springPosts %}
