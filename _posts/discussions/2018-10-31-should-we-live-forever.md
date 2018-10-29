@@ -1,7 +1,9 @@
 ---
-title: "Should we live forever?"
+title: "Should We Live Forever?"
 date:      2018-10-31 16:30:00
 scheduled: 2018-10-29 8:00:00
-tags: []
+tags: [mortality, morality, life, death]
 ---
-Check back to see the blurb!
+The fountain of youth, a special elixir, uploading your consciousness to the cloud– human kind has come up with various legends, beliefs, and new ideas on how to extend our lives forever. Despite our obsession with extending life and avoiding death is a natural one, death is currently the one great equalizer and inevitability, the one guarantee of the human condition that applies to us all. The person who discovers how to cheat death, if it is even possible, will transcend our traditional definitions of human, and redefine the possibilities of the entire human race. Often times in fiction however, we see immortality portrayed as being highly undesirable. Arwen in the Lord of the Rings chooses to relinquish her immortal life to experience one life time with the man she loves, and Quinn from Star Trek attempts to end his life unsuccessfully saying afterward being an immortal is painfully boring, and causes any meaning of his life to “cheapen and denigrate”.
+
+Suppose we did decide however that living forever was a positive, and worth the pain and difficulties of watching other mortals die and becoming increasingly bored. This discovery would also open up a new set of ethical quandaries as well. If we were somehow able to live forever, we would have to ask ourselves would it be ethical to do so? As it is, earth is tending towards critical overpopulation levels, resources are being depleted at unprecedented rates, and the effect of rapid human development has already resulted in climate change. So would be natural to assume some drastic changes would need to be enacted in our society to accommodate the never dying portion of the population. If some people were allowed to live forever how would we decide who received the privilege? Would it be ethical to limit the amount of new human life created to preserve the lives of the people who are already here?
