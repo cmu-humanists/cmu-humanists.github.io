@@ -41,6 +41,14 @@ View our full constitution <a href="http://goo.gl/s3DSX" target="_blank">here</a
 
 ### Previous Executive Boards
 - 2016 – 2017: 
+  - Clara Nelson &#8213; President
+  - Alex Jackson &#8213; Vice President
+  - Jeremy Huang &#8213; Events Coordinator
+  - Chanel Menocal &#8213; Treasurer
+  - Eduardo Solomon &#8213; Social Chair
+  - Aiko Kyle &#8213; Media Manager
+  - Prof. Andy Norman &#8213; Faculty Advisor
+- 2016 – 2017: 
   - Aiko Kyle &#8213; President
   - Clara Nelson &#8213; Vice President
   - Katie Beittenmiller &#8213; Events Coordinator

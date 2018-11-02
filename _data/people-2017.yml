@@ -1,0 +1,35 @@
+clara_nelson:
+  name: Clara Nelson
+  bio: "Hi, I'm Clara! I'm a senior majoring in civil engineering, with a focus on structural engineering and intelligent building technology, and minoring in philosophy. In particular, I enjoy moral and ethical philosophy. In my free time, I like to play video games like Skyrim, Fable, and Minecraft; read and write fantasy novels; and most relevantly, debate and argue with people over both significant and insignificant topics."
+  position: President
+  avatar: clara.jpg
+
+alex_jackson:
+  name: Alex Jackson
+  bio: "Hi I’m Alex! I’m a Junior Physics and EHPP major. I’d describe my system of morality as a kind of \"principle of nonmaleficence\" but for life! When I’m not here I work for a nonprofit teaching and mentoring kids from underrepresented groups to get them interested in STEM fields. I’m also part of FEMME, COMPASS, and FLOS. Fun fact, I collect vintage cameras and make black and white photos sometimes."
+  avatar: alex.jpg
+  position: Vice President
+
+jeremy_huang:
+  name: Jeremy Huang
+  bio: "Hello, I'm Jeremy. I am a junior Computer Science major with a physics minor. Epistemologically, I am a fallibilist, which means that it is always possible to be less wrong. Morally, I am a proponent of natural rights who values knowledge. I love reading, learning, and collaborative argumentation."
+  avatar: jeremy.jpg
+  position: Events Coordinator
+
+chanel_menocal:
+  name: Chanel Menocal
+  bio: "Hey I'm Chanel! I'm a sophomore studying Mechanical Engineering and planning on minoring in Ethics. I like to find a common ground between two arguments and then figure out why one should choose one opinion over the other based on its facts, because I believe most arguments can be traced back to an objective truth. I'm also a tutor for NLA's Math Geniuses, which helps 7th-9th graders with Algebra. On my free time, I listen to music (usually hiphop or salsa), watch cute cat videos, and surf Reddit."
+  avatar: chanel.jpg
+  position: Treasurer
+
+eduardo_solomon:
+  name: Eduardo Solomon
+  bio: "Heya, my name’s Eddie. I’m the social chair and a graduate student at Heinz, studying the sciences of public policy and management. Yes, they’ve made it into a science. Working in housing policy, I enjoy talking about queer theory, trauma theory, institutional racism, and the culture of poverty. You could say I’m moderately liberal, with a hint of injustice theory, a pinch of negative utilitarianism, and a whole lot of anti-authoritarian complex. In my free time I can be found sharing pretty popsci images, listening to trip-hop and neo soul, or playing Pokemon rom hacks on a GBA emulator."
+  avatar: eddie.jpg
+  position: Social Chair
+
+aiko_kyle:
+  name: Aiko Kyle
+  bio: "Greetings, I am Aiko! I'm  a senior Physics and Computer Science major with a minor in Philosophy. I'm still just trying to figure it all out, sometimes feeling a bit lost in all the systems of morality and epistemology, while other times feeling like it makes sense. I love sci-fi (especially Star Trek), dancing, and yoga."
+  avatar: aiko.jpg
+  position: Media Manager
