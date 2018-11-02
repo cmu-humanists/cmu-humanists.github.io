@@ -1,7 +1,7 @@
 ---
 title: "Lee McIntyre – Post-Truth"
-date:      2017-10-04 16:30:00
-scheduled: 2017-09-20 09:00:00
+date:      2017-02-20 16:30:00
+scheduled: 2017-02-19 08:00:00
 tags: [truth, news]
 banner: /images/speakers/lee-banner.png
 poster: /images/speakers/lee-poster.png
