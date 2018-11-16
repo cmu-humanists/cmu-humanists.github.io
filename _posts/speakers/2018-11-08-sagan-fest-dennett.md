@@ -1,5 +1,5 @@
 ---
-title: "Daniel Dennett – Autonomy, Conciousness, & Responsibility"
+title: "Carl Sagan Fest, featuring Daniel Dennett"
 date:      2018-11-08 17:00:00
 scheduled: 2018-10-24 17:00:00
 tags: [sagan fest]
