@@ -1,7 +1,7 @@
 ---
 title: "Obligations to a Specific Future"
 date:      2018-11-28 16:30:00
-scheduled: 2018-11-28 12:00:00
+scheduled: 2018-11-28 8:00:00
 tags: [Morality, Ethics, Obligation, Future]
 ---
 We think of obligations that we have to people in the present as a rather straight forward concept. For example, one might say that a parent has an obligation to her child to provide that child a good education. Because the parent has such an obligation, she must perform certain actions like saving money for her child's education or researching schools that she might send her child to. But obligations to people or things in the future are less clear. Did our hypothetical parent have obligations to perform those actions in the past before her child existed but after she knew that she was likely to have a child? 
