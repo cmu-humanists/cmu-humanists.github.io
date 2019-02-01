@@ -1,6 +1,6 @@
 ---
 title: "What is Humanism?"
-date:      2019-01-30 16:30:00
+date:      2019-02-06 16:30:00
 scheduled: 2019-01-28 15:00:00
 tags: [humanism]
 ---
