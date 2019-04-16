@@ -10,4 +10,4 @@ To understand why political discourse seems to have deteriorated, many people po
 
 What are the barriers hindering constructive political discourse? Is the rhetoric on opposite sides of the political spectrum becoming more split? Ultimately how do we best go about engaging in constructive political discourse? What responsibility do we have as citizens to engage with others constructively over political matters?
 
-This blurb has been reused from a previous meeting. </discussions/2017/02/27/constructive-political-discourse/>
+This blurb has been reused from a [previous meeting](/discussions/2017/02/27/constructive-political-discourse/).
