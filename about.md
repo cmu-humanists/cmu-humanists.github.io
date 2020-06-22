@@ -40,7 +40,23 @@ View our full constitution <a href="http://goo.gl/s3DSX" target="_blank">here</a
 {% include list-people.html %}
 
 ### Previous Executive Boards
-- 2016 – 2017: 
+- 2019 – 2020: 
+  - Isaac Grosof &#8213; President
+  - Alex Fogelson &#8213; Vice President
+  - Ilona Altman &#8213; Events Coordinator
+  - William Chen &#8213; Treasurer
+  - Isaac Grosof &#8213; Social Chair
+  - Daniel De Angulo &#8213; Media Manager
+  - Prof. Andy Norman &#8213; Faculty Advisor
+- 2018 – 2019: 
+  - Alex Jackson &#8213; President
+  - Chanel Menocal &#8213; Vice President
+  - Alexander Litzenberger &#8213; Events Coordinator
+  - Yunzhe Nie &#8213; Treasurer
+  - Isaac Grosof &#8213; Social Chair
+  - Jeremy Huang &#8213; Media Manager
+  - Prof. Andy Norman &#8213; Faculty Advisor
+- 2017 – 2018: 
   - Clara Nelson &#8213; President
   - Alex Jackson &#8213; Vice President
   - Jeremy Huang &#8213; Events Coordinator
