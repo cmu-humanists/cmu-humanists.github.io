@@ -17,7 +17,7 @@ owner:
   github: #username
   google:
     analytics: UA-107177276-1
-    calendar: src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp # the src= part of the embed code
+    calendar: ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp # the src= part of the embed code
 
 # Jekyll configuration
 
