@@ -1,7 +1,7 @@
 ---
 title: "The Existance of God"
-date:      2020-02-09 16:30:00
-scheduled: 2020-02-07 17:30:00
+date:      2020-02-10 16:30:00
+scheduled: 2020-02-08 17:30:00
 tags: [Existance, God, Religion]
 ---
 Throughout recorded history, humans have searched for God. From localized deities to religions as far-reaching as Christianity, people drew on life experiences, anecdotal stories, and their own faith to explain the world around them. Philosophers' struggles with free will and metaphysics often led them to contemplate how God factored in. We join generations of thinkers in attempting to answer the question: How plausible is it that a god exists, in some form?
