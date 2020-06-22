@@ -1,6 +1,6 @@
 ---
 title: "What Does Morality Look Like Without God?"
-date:      2020-02-02 16:30:00
+date:      2020-02-03 16:30:00
 scheduled: 2020-02-01 17:30:00
 tags: [Morality, God, Religion]
 ---
