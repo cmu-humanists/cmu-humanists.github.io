@@ -1,5 +1,5 @@
 ---
-title: "George Floyd Protests"
+title: "Discussion Links: George Floyd Protests"
 date:      2020-05-29 16:30:00
 scheduled: 2020-05-26 17:30:00
 tags: [Civil Rights, Racism, Police Brutality]
