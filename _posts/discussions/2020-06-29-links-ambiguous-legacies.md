@@ -19,6 +19,6 @@ Below are some additional links and resources compiled from our weekly discussio
 
 <a href="https://www.jsonline.com/story/news/2020/06/24/madison-protesters-pull-down-forward-hans-christian-heg-statues-attack-senator-sculptures-in-lake/3247948001/">Hans Christian Statue in Madison</a>
 
-<a href="https://en.wikipedia.org/wiki/List_of_Confederate_monuments_and_memorials#Pennsylvania">Pennsylvania confederate statues: See McConnellsburg</a>
+<a href="https://en.wikipedia.org/wiki/List_of_Confederate_monuments_and_memorials#Pennsylvania">Pennsylvania Confederate Statues: See McConnellsburg</a>
 
 <a href="https://www.theatlantic.com/magazine/archive/1996/10/thomas-jefferson-radical-and-racist/376685/">Jefferson Failure</a>
