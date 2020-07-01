@@ -6,20 +6,19 @@ tags: [Civil Disobedience, Politics, Revolutions, Protests, Statues, History]
 ---
 Below are some additional links and resources compiled from our weekly discussion to aid discourse and research into this topic:
 
-https://www.theguardian.com/us-news/2020/jun/20/san-francisco-statues-ulysses-s-grant-junipero-serra-francis-scott-key
+<a href="https://www.theguardian.com/us-news/2020/jun/20/san-francisco-statues-ulysses-s-grant-junipero-serra-francis-scott-key">Ulysses S. Grant & Francis Scott Key Statues</a>
 
-https://www.princeton.edu/news/2020/06/27/board-trustees-decision-removing-woodrow-wilsons-name-public-policy-school-and
 
-https://pghfreethought.org/event-3885156
+<a href="https://www.princeton.edu/news/2020/06/27/board-trustees-decision-removing-woodrow-wilsons-name-public-policy-school-and">Removing Woodrow Wilson's Name</a>
 
-https://en.wikipedia.org/wiki/Uruguayan_Air_Force_Flight_571
+<a href="https://pghfreethought.org/event-3885156">Civil Disobedience - PGH Free Thought</a>
 
-Monument Avenue in Richmond, Virginia: https://www.vox.com/the-highlight/21279808/robert-e-lee-confederate-statue-monument-avenue-richmond-racism-george-floyd
+<a href="https://en.wikipedia.org/wiki/Uruguayan_Air_Force_Flight_571">Uruguayan Air Force Flight 571</a>
 
-Madison, Wisconsin: https://www.jsonline.com/story/news/2020/06/24/madison-protesters-pull-down-forward-hans-christian-heg-statues-attack-senator-sculptures-in-lake/3247948001/
+<a href="https://www.vox.com/the-highlight/21279808/robert-e-lee-confederate-statue-monument-avenue-richmond-racism-george-floyd">Monument Avenue in Richmond, Virginia</a>
 
-Pennsylvania confederate statues: See McConnellsburg. https://en.wikipedia.org/wiki/List_of_Confederate_monuments_and_memorials#Pennsylvania
+<a href="https://www.jsonline.com/story/news/2020/06/24/madison-protesters-pull-down-forward-hans-christian-heg-statues-attack-senator-sculptures-in-lake/3247948001/">Hans Christian Statue in Madison</a>
 
-Interestingly, Conor Cruise 'O Brien wrote a classic essay on Jefferson in 1996 - he predicted that Jefferson's reputation would fall in the future. https://www.theatlantic.com/magazine/archive/1996/10/thomas-jefferson-radical-and-racist/376685/
+<a href="https://en.wikipedia.org/wiki/List_of_Confederate_monuments_and_memorials#Pennsylvania">Pennsylvania confederate statues: See McConnellsburg</a>
 
-<a href="http://www.quora.com/Adam-DAngelo">Quora profile link for Adam D'Angelo</a>
+<a href="https://www.theatlantic.com/magazine/archive/1996/10/thomas-jefferson-radical-and-racist/376685/">Jefferson Failure</a>
