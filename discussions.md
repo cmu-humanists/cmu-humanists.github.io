@@ -5,10 +5,6 @@ excerpt: "All our weekly meeting discussion topics and blurbs."
 show_logo: true
 search_omit: true
 ---
-<div class='center-btns'>
-<a href="http://eepurl.com/D695H" class="btn">Suscribe to our weekly meetings email list!</a>
-</div>
-
 <div class='post-list-selector'>
 {% capture nowyear %}{{'now' | date: '%Y'}}{% endcapture %}
 {% assign postsByYear = site.categories.discussions | group_by_exp: "post", "post.date | date: '%Y'" %}
