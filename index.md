@@ -7,6 +7,10 @@ show_description: true
 animate: true
 search_omit: true
 ---
+<div class='center-btns'>
+<a href="http://eepurl.com/D695H" class="btn">Suscribe to our weekly meetings email list!</a>
+</div>
+
 <h1 class="entry-title">Upcoming Events</h1>
 
 {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
