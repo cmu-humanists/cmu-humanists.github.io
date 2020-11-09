@@ -12,6 +12,7 @@ search_omit: true
 </div>
 
 <a href="https://www.google.com/url?q=https://cmu.zoom.us/j/97801944405?pwd%3DMVFMZS9jN3Z6a1ZTbEpwcDhOSks4dz09&sa=D&source=calendar&usd=2&usg=AOvVaw0yhT8lNKKtg_gfSZvnzLw5">Attend Sagan Day: Daryl Davis on Zoom</a>
+
 <a href="https://youtu.be/6PD8H-gjkcQ"> Watch Sagan Day: Daryl Davis on YouTube</a>
 
 <h1 class="entry-title">Upcoming Events</h1>
