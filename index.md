@@ -8,11 +8,11 @@ animate: true
 search_omit: true
 ---
 <div class='center-btns'>
-<a href="https://cmu.zoom.us/j/97801944405?pwd=MVFMZS9jN3Z6a1ZTbEpwcDhOSks4dz09">Attend Sagan Day: Daryl Davis on Zoom</a>
+<a href="https://youtu.be/Jp_lbRLKX1U"> Watch Sagan Day: Daryl Davis on YouTube</a>
 </div>
 
 <div class='center-btns'>
-<a href="https://youtu.be/Jp_lbRLKX1U"> Watch Sagan Day: Daryl Davis on YouTube</a>
+<a href="http://eepurl.com/D695H" class="btn">Suscribe to our weekly meetings email list!</a>
 </div>
 
 <h1 class="entry-title">Upcoming Events</h1>
