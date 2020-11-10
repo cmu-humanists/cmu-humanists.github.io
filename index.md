@@ -12,11 +12,7 @@ search_omit: true
 </div>
 
 <div class='center-btns'>
-<a href="https://youtu.be/6PD8H-gjkcQ"> Watch Sagan Day: Daryl Davis on YouTube</a>
-</div>
-
-<div class='center-btns'>
-<a href="http://eepurl.com/D695H" class="btn">Suscribe to our weekly meetings email list!</a>
+<a href="https://youtu.be/Jp_lbRLKX1U"> Watch Sagan Day: Daryl Davis on YouTube</a>
 </div>
 
 <h1 class="entry-title">Upcoming Events</h1>
