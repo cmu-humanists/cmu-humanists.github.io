@@ -4,18 +4,6 @@ isaac_grosof:
   position: President, Social Chair
   avatar: 2020-isaac-grosof.jpg
 
-chanel_menocal:
-  name: Chanel Menocal
-  bio: "Hey, I'm Chanel and I'm the VP/ Treasurer for The Humanist League. I'm majoring in Civil Engineering and looking to specialize in public structures. I like to find a common ground between two arguments and then figure out why one should choose one opinion over the other based on its facts, because I believe most arguments can be traced back to an objective truth. On my free time, I like to discover new bands (many of which are local to Pittsburgh),  do DIY projects, practice mindfulness, and watch documentaries."
-  avatar: chanel.jpg
-  position: Vice President
-
-alexander_litzenberger:
-  name: Alexander Litzenberger
-  bio: "Hello, I am Alex. I am a Junior Double Major in Artificial Intelligence and Computer Science. I spend my free time Reading (mostly Philosophy) books, and white water kayaking. I believe in objective truth but not certain knowledge so I think that we should strive to make the latter approximate the former. Fun fact, not a big fan of fiction books."
-  avatar: 2018-alexander-litzenberger.jpg
-  position: Events Coordinator
-
 andy_norman:
   name: Andy Norman
   bio: "Andy Norman directs the Humanism Initiative at Carnegie Mellon University. He searches in vain for wisdom, but knows enough to enjoy a good sneeze. He finds perplexing questions endlessly entertaining. Frisbees and good conversations cause him to lose track of time. He’s done research on the evolutionary origins of human reasoning and the norms that make dialogue fruitful. His work has appeared in Free Inquiry, The Humanist, and dozens of refereed journals. He’s working on a book about how ideologies short-circuit thinking and corrupt moral understanding."
@@ -27,9 +15,3 @@ daniel_de_angulo:
   bio: "Howdy, I'm Daniel, a senior in Computer Science with a minor in Physics. Always liked thinking, never got very good at it though."
   avatar: 2020-daniel-d.jpg
   position: Media Manager
-
-yunzhe_nie:
-    name: Yunzhe Nie
-    bio: "Hey! I am Yunzhe, a freshman student studying Cognitive Science and Computer Science. I am very interested in philosophy of mind, machine ethics, and US-China relations. I am a pragmatist, with a touch of idealism. In my free time, I love to debate, play badminton, and practice Shaolin Kungfu."
-    avatar: 2018-yunzhe-nie.png
-    position: Treasurer
