@@ -20,7 +20,7 @@ You can also check out some of [our previous topics](discussions.md).
 We invite speakers to talk about topics of importance to humanity and our shared well-being.
 We have events several times a semester, which are open to absolutely everyone!
 We'll post about them here, or you can join [our events mailing list](http://eepurl.com/dLsc7A) to just hear about our speaker events.
-The weekly meetings list also hear about the speaker events.
+The weekly meetings list will also hear about the speaker events.
 You can also check out some of [our previous speakers](speakers.md).
 
 For anything else, you can send us an email at cmu dot humanists@gmail dot com (Sorry for the indirection, spam is annoying).
