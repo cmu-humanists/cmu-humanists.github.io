@@ -23,7 +23,7 @@ We'll post about them here, or you can join [our events mailing list](http://eep
 The weekly meetings list will also hear about the speaker events.
 You can also check out some of [our previous speakers](speakers.md).
 
-You can learn about our mission and meet exec board [over here](about.md).
+You can learn about our mission and meet our exec board [over here](about.md).
 
 For anything else, you can send us an email at cmu dot humanists@gmail dot com (Sorry for the indirection, spam is annoying).
 
