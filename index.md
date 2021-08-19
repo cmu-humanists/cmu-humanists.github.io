@@ -14,7 +14,7 @@ All CMU students, faculty, and community members are invited!
 New members are always enthusiastically welcome.
 Our first weekly meeting will be on September 1st.
 To hear about the topics of our weekly meetings,
-[Suscribe to our weekly meetings email list!](http://eepurl.com/D695H).
+[subscribe to our weekly meetings email list!](http://eepurl.com/D695H)
 You can also check out some of [our previous topics](discussions.md).
 
 We invite speakers to talk about topics of importance to humanity and our shared well-being.
