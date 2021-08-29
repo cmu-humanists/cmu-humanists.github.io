@@ -8,7 +8,7 @@ animate: true
 search_omit: true
 ---
 
-The CMU Humanist League holds weekly discussion meetings, on a variety of which are chosen to promote deep yet positive conversations.
+The CMU Humanist League holds weekly discussion meetings, on a variety of topics which are chosen to promote deep yet positive conversations.
 This semester, we are meeting in Wean 5302 on Wednesday at 4:30pm.
 All CMU students, faculty, and community members are invited!
 New members are always enthusiastically welcome.
