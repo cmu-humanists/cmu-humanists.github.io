@@ -8,14 +8,18 @@ animate: true
 search_omit: true
 ---
 
+**Discussion meetings in Wean Hall 5302 on Wednesday at 4:30pm.**
+To hear about the topics of our weekly meetings,
+[subscribe to our weekly meetings email list!](http://eepurl.com/D695H)
+To see potential future topics and suggest new ones, [check out this form](https://docs.google.com/forms/d/e/1FAIpQLSf53QEZMiuKBpDanz_JOqM6LzdFOwr3XV-B7Or34mzfEZl8Ow/viewform).
+
+
 The CMU Humanist League holds weekly discussion meetings, on a variety of topics which are chosen to promote deep yet positive conversations.
-This semester, we are meeting in Wean 5302 on Wednesday at 4:30pm.
 All CMU students, faculty, and community members are invited!
 New members are always enthusiastically welcome.
 Our first weekly meeting will be on September 1st.
-To hear about the topics of our weekly meetings,
-[subscribe to our weekly meetings email list!](http://eepurl.com/D695H)
 You can also check out some of [our previous topics](discussions.md).
+
 
 We invite speakers to talk about topics of importance to humanity and our shared well-being.
 We have events several times a semester, which are open to absolutely everyone!
