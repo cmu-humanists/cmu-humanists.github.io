@@ -8,7 +8,8 @@ animate: true
 search_omit: true
 ---
 
-**Discussion meetings in Wean Hall 5302 on Wednesday at 4:30pm.**
+**Discussion meetings in Wean Hall 5310 on Wednesday at 4:30pm.**
+(This is a change from what was previously announced, due to some logistical difficulties).
 To hear about the topics of our weekly meetings,
 [subscribe to our weekly meetings email list!](http://eepurl.com/D695H)
 To see potential future topics and suggest new ones, [check out this form](https://docs.google.com/forms/d/e/1FAIpQLSf53QEZMiuKBpDanz_JOqM6LzdFOwr3XV-B7Or34mzfEZl8Ow/viewform).
