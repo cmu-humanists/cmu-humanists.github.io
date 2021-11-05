@@ -8,6 +8,8 @@ animate: true
 search_omit: true
 ---
 
+**Sagan Day featuring speaker Angela Duckworth on Wed., November 10th at 5pm in McConomy Hall!**
+
 **Discussion meetings in Wean Hall 5312 on Wednesday at 4:30pm.**
 To hear about the topics of our weekly meetings,
 [subscribe to our weekly meetings email list!](http://eepurl.com/D695H)
@@ -17,7 +19,6 @@ To see potential future topics and suggest new ones, [check out this form](https
 The CMU Humanist League holds weekly discussion meetings, on a variety of topics which are chosen to promote deep yet positive conversations.
 All CMU students, faculty, and community members are invited!
 New members are always enthusiastically welcome.
-Our first weekly meeting will be on September 1st.
 You can also check out some of [our previous topics](discussions.md).
 
 
