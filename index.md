@@ -8,7 +8,7 @@ animate: true
 search_omit: true
 ---
 
-**Sagan Day featuring speaker Angela Duckworth on Wed., November 10th at 5pm in McConomy Hall!**
+**Sagan Day featuring speaker Angela Duckworth on Wed., November 10th at 5pm in McConomy Hall!** If you can't make it in person, use this Zoom link: https://cmu.zoom.us/j/93881924296?pwd=WjFlM0VYd3VUanF0TitwU1l2eDUwdz09
 
 **Discussion meetings in Wean Hall 5312 on Wednesday at 4:30pm.**
 To hear about the topics of our weekly meetings,
