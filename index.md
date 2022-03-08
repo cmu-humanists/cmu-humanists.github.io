@@ -8,7 +8,7 @@ animate: true
 search_omit: true
 ---
 
-Our next speaker event: **On March 16th, at 5pm, Prof. Derrick Gray will be speaking about Structure, Justice and Exploitation.** Check back here for our Zoom link.
+Our next speaker event: **On March 16th, at 5pm in Doherty Hall A302, Prof. Derrick Gray will be speaking about Structure, Justice and Exploitation.** Check back here for our Zoom link.
 
 **Discussion meetings in Wean Hall 5302 on Wednesday at 4:30pm.**
 To hear about the topics of our weekly meetings,
