@@ -8,9 +8,9 @@ animate: true
 search_omit: true
 ---
 
-**Sagan Day featuring speaker Angela Duckworth on Wed., November 10th at 5pm in McConomy Hall!** If you can't make it in person, use this Zoom link: https://cmu.zoom.us/j/93881924296?pwd=WjFlM0VYd3VUanF0TitwU1l2eDUwdz09
+Our next speaker event: **On March 16th, at 5pm, Prof. Derrick Gray will be speaking about Structure, Justice and Exploitation.** Check back here for our Zoom link.
 
-**Discussion meetings in Wean Hall 5312 on Wednesday at 4:30pm.**
+**Discussion meetings in Wean Hall 5302 on Wednesday at 4:30pm.**
 To hear about the topics of our weekly meetings,
 [subscribe to our weekly meetings email list!](http://eepurl.com/D695H)
 To see potential future topics and suggest new ones, [check out this form](https://docs.google.com/forms/d/e/1FAIpQLSf53QEZMiuKBpDanz_JOqM6LzdFOwr3XV-B7Or34mzfEZl8Ow/viewform).
