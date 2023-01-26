@@ -8,9 +8,8 @@ animate: true
 search_omit: true
 ---
 
-Our next speaker event: **On Wed. November 2nd, at 5pm in McConomy Hall in CUC, Prof. David Sloan Wilson will be speaking about Evolving a World that Works for All: Fulfilling the Spirit of Humanism in the Internet Age.** 
 
-**Discussion meetings in Wean Hall 5310 on Tuesday at 4:30pm.**
+**Discussion meetings are held every week in Wean Hall 5310 on Tuesday at 4:30pm.**
 To hear about the topics of our weekly meetings,
 [subscribe to our weekly meetings email list!](http://eepurl.com/D695H)
 To see potential future topics and suggest new ones, [check out this form](https://docs.google.com/forms/d/e/1FAIpQLSf53QEZMiuKBpDanz_JOqM6LzdFOwr3XV-B7Or34mzfEZl8Ow/viewform).
