@@ -14,6 +14,8 @@ To hear about the topics of our weekly meetings,
 [subscribe to our weekly meetings email list!](http://eepurl.com/D695H)
 To see potential future topics and suggest new ones, [check out this form](https://docs.google.com/forms/d/e/1FAIpQLSf53QEZMiuKBpDanz_JOqM6LzdFOwr3XV-B7Or34mzfEZl8Ow/viewform).
 
+**Board games events are held every week in Wean Hall 5316 on either Wednesday or Thursday at 5pm. See our emails for the specific day of the week.**
+
 
 The CMU Humanist League holds weekly discussion meetings, on a variety of topics which are chosen to promote deep yet positive conversations.
 All CMU students, faculty, and community members are invited!
