@@ -1,6 +1,6 @@
 # Carnegie Mellon University Humanist League Website
 
-[Check it out!](http://cmuhl.org)
+[Check it out!](http://cmu-humanists.github.io)
 
 This is the repository for the content of the Carnegie Mellon University
 Humanist League Website. We use jekyll to build the static website using our
