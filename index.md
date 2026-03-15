@@ -8,6 +8,9 @@ animate: true
 search_omit: true
 ---
 
+The Humanist League is on indefinite hiatus, due to a lack of leadership and interested participants. If you are interested in restarting the club, please contact [Izzy Grosof](mailto:izzy.grosof@northwestern.edu). The site is left as it appeared in its last update, in March 2023.
+
+<hr>
 
 **Discussion meetings are held every week in Wean Hall 5310 on Tuesday at 4:30pm.**
 To hear about the topics of our weekly meetings,
